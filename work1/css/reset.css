@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.btn-r-l {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    outline: none;
+    color: white;
+    background: rgb(69, 66, 255);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@keyframes changecolor {
+    to {background-color: rgb(38, 38, 238);}
+}
+
+.btn-r-l:hover {
+    animation-name: changecolor;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: 600;
+    margin-top: 30px;
+}

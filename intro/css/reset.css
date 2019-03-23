@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;    
+}
+
+a: :visited {
+    color: inherit;
+}
+
+ol, ul, li {
+    list-style-type: none;
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+}
