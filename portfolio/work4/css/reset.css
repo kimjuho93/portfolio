@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+::selection {
+    color: white;
+    background: black;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-w {
+    width: 220px;
+    height: 70px;
+    border: 1px solid rgba(190, 190, 190, 0.459);
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.btn-w::after {
+    content: '→';
+}
+
+.btn-w:hover:after {
+    margin-left: 30%;
+    transition: .2s ease-out;
+}
+
+.btn-b {
+    width: 250px;
+    height: 80px;
+    border: 1px solid rgba(190, 190, 190, 0.459);
+    outline: none;
+    color: white;
+    background: transparent;
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.btn-b::after {
+    content: '→';
+}
+
+.btn-b:hover:after {
+    margin-left: 30%;
+    transition: .2s ease-out;
+}
+
+
