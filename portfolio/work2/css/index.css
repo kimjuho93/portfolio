@@ -51,6 +51,7 @@
         text-align: center;
         padding: 2.5rem 3.125rem;
         margin: 0;
+        text-transform: uppercase;
     }
     
     .nav-l li > a:hover {
@@ -404,10 +405,6 @@
         margin: 0;
     }
 
-    .hide-menu a:hover {
-        background: rgb(230, 230, 230);
-    }
-
     .h-btn {
         width: 100%;
         columns: 1;
@@ -415,6 +412,12 @@
         line-height: 5rem;
         padding-left: 6rem;
         border-top: 1px solid rgba(190, 190, 190, 0.521);
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .h-btn:hover {
+        background: rgb(230, 230, 230);
     }
 
     .intro {
@@ -764,10 +767,6 @@
         margin: 0;
     }
 
-    .hide-menu a:hover {
-        background: rgb(230, 230, 230);
-    }
-
     .h-btn {
         width: 100%;
         columns: 1;
@@ -775,6 +774,12 @@
         line-height: 5rem;
         padding-left: 6rem;
         border-top: 1px solid rgba(190, 190, 190, 0.521);
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .h-btn:hover {
+        background: rgb(230, 230, 230);
     }
 
     .intro {
@@ -1124,10 +1129,6 @@
         margin: 0;
     }
 
-    .hide-menu a:hover {
-        background: rgb(230, 230, 230);
-    }
-
     .h-btn {
         width: 100%;
         columns: 1;
@@ -1135,6 +1136,12 @@
         line-height: 5rem;
         padding-left: 6rem;
         border-top: 1px solid rgba(190, 190, 190, 0.521);
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .h-btn:hover {
+        background: rgb(230, 230, 230);
     }
 
     .intro {

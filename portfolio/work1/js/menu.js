@@ -1,7 +1,9 @@
 $(function(){
-    $('.hamburger').click(function(){
-        $('.hide-menu').toggle(function(){ 
-            $('.hide-menu').animate({ height: '320px' }, 10); 
-        }); 
+    $('.hamburger').click(function(){        
+        $('.hide-menu').animate({ 'right': '0' }, 500); 
+    });
+
+    $('.close').click(function(){        
+        $('.hide-menu').animate({ 'right': '-300' }, 500); 
     });
 });

@@ -12,7 +12,7 @@ function changeColor(){
     let change5 = $('.container-3').offset().top;
 
     
-    if( criteria >= change0 ) {
+    if ( criteria >= change0 ) {
         $('.logo a').css({
             'color': 'white', 'text-shadow': 'none'
         });
@@ -21,25 +21,7 @@ function changeColor(){
         });
     }
 
-    if( criteria >= change1 ) {
-        $('.logo a').css({
-            'color': 'black', 'text-shadow': 'none'
-        });
-        $('.menu').css({
-            'color': 'black', 'text-shadow': 'none'
-        });
-    }
-
-    if( criteria >= change2 - 70 ) {
-        $('.logo a').css({
-            'color': 'white', 'text-shadow': 'none'
-        });
-        $('.menu').css({
-            'color': 'white', 'text-shadow': 'none'
-        });
-    }
-
-    if( criteria >= change3 - 70  ) {
+    if ( criteria >= change1 ) {
         $('.logo a').css({
             'color': 'black', 'text-shadow': 'none'
         });
@@ -48,7 +30,7 @@ function changeColor(){
         });
     }
 
-    if( criteria >= change4 - 70 ) {
+    if ( criteria >= change2 - 70 ) {
         $('.logo a').css({
             'color': 'white', 'text-shadow': 'none'
         });
@@ -57,7 +39,25 @@ function changeColor(){
         });
     }
 
-    if( criteria >= change5 - 70 ) {
+    if ( criteria >= change3 - 70  ) {
+        $('.logo a').css({
+            'color': 'black', 'text-shadow': 'none'
+        });
+        $('.menu').css({
+            'color': 'black', 'text-shadow': 'none'
+        });
+    }
+
+    if ( criteria >= change4 - 70 ) {
+        $('.logo a').css({
+            'color': 'white', 'text-shadow': 'none'
+        });
+        $('.menu').css({
+            'color': 'white', 'text-shadow': 'none'
+        });
+    }
+
+    if ( criteria >= change5 - 70 ) {
         $('.logo a').css({
             'text-shadow': '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'
         });
