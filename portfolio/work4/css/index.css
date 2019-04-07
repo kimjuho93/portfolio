@@ -41,7 +41,7 @@
     .intro > p {
         position: absolute;
         top: 85vh;
-        left: 90%;
+        left: 95%;
         color: white;
         font-size: 30px;
         margin: 0;
@@ -570,7 +570,7 @@
     .intro > p {
         position: absolute;
         top: 85vh;
-        left: 90%;
+        left: 95%;
         color: white;
         font-size: 30px;
         margin: 0;
@@ -1099,7 +1099,7 @@
     .intro > p {
         position: absolute;
         top: 85vh;
-        left: 90%;
+        left: 95%;
         color: white;
         font-size: 30px;
         margin: 0;
@@ -1585,7 +1585,7 @@
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 799px) {
+@media screen and (min-width: 326px) and (max-width: 799px) {
     #wrap {
         width: 100%;
     }
@@ -1872,7 +1872,7 @@
     }
 
     .container-2 h2 {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
     }
