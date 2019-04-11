@@ -1,0 +1,162 @@
+.header-top {
+    width: 100%;
+    height: 50px;   
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 .1px gray;
+}
+
+.btn-top-box {
+    width: 700px;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.btn-top {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.btn-top-active {
+    color: orange;
+    font-weight: bold;
+}
+
+#wrap {
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab {
+    width: 100%;
+    height: 1000px;
+    display: none;
+}
+
+.tab-w-active {
+    display: block;
+}
+
+.home-header-fixed {
+    width: 100%;
+    height: 45px;
+}
+
+.btn-f {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.btn-f-active {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.tab-h {
+    width: 100%;
+    height: 1000px;
+    display: none;
+}
+
+.tab-h-active {
+    display: block;
+}
+
+.slider{
+    width: 100%;
+    height: 320px;
+    position: relative;
+}
+.slider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.slider .swiper-pagination {
+    width: 100px;
+    height: 30px;
+    background: rgba(0, 0, 0, .3);
+    color: white;
+    line-height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 95%;
+    left: 98%;
+    transform: translate(-98%, -95%);
+    cursor: pointer;
+}
+
+.slider-contents img {
+    width: 100%;
+}
+
+.today-book {
+    width: 95%;
+    height: 380px;
+    border-radius: 10px;
+    background: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.multiple-book {
+    width: 100%;
+    height: auto;
+}
+
+.multiple-book a {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.multiple-book h2::after {
+    content: '>';
+    position: absolute;
+    right: 10px;
+}
+
+.multiple-book-contents {
+    margin-bottom: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.multiple-book-contents img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.multiple-book-contents h6 {
+    font-size: 16px;
+    margin: 0;
+    line-height: 16px;
+}
+
+.multiple-book-contents p {
+    font-size: 12px;
+    margin: 0;
+    line-height: 12px;
+}
