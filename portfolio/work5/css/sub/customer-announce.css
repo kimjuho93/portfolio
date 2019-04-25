@@ -1,0 +1,62 @@
+.announce-wrap {
+    width: 100%;
+    width: auto;
+    background: rgb(230, 230, 230);
+    display: grid;
+    display: -webkit-grid;
+    display: -moz-grid;
+    display: -ms-grid; 
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(auto, auto);
+    grid-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.announce {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(150, 150, 150);
+    background: white;
+}
+
+.announce input {
+    position: absolute;
+    opacity: 0;
+    z-index: -9;
+}
+
+.announce label {
+    position: relative;
+    display: block;
+    font-weight: bold;
+    line-height: 3;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.announce-content {
+    height: 0;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-break: keep-all;
+    font-size: 14px;
+}
+
+.announce input:checked ~ .announce-content {
+    height: auto;
+}
+
+.announce label::after {
+    content: "\25BC";
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+}

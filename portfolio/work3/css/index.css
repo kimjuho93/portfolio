@@ -149,7 +149,7 @@ input:focus ~ .bar:before {
   width: 100%;
 }
 
-.confirm {
+input[name="submit"] {
     width: 150px;
     height: 50px;
     background: white;

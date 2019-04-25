@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale = 1, minimum-scale = 1, maximum-scale = 1, width=device-width">
 
         <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/common.css">
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
 
@@ -13,389 +15,833 @@
     <body>
         <div class="header-top">            
             <div class="btn-top-box">
-                <button class="btn-top btn-top-active">홈</button>
-                <button class="btn-top">검색</button>
-                <button class="btn-top">피드</button>
-                <button class="btn-top">내서재</button>
-                <button class="btn-top">관리</button>        
+                <button class="btn-top btn-top-active" onclick="location.href='./index.html'">홈</button>
+                <button class="btn-top" onclick="location.href='./sub/search.html'">검색</button>
+                <button class="btn-top" onclick="location.href='./sub/customer-faq.html'">고객센터</button>
+                <button class="btn-top" onclick="location.href='./sub/user.html'">관리</button>        
             </div>
         </div>
         <div id="wrap">
             <div class="tab-wrapper">
-                <div class="tab home tab-w-active">
-                    <div class="home-header-fixed">
-                        <button class="btn-f btn-f-active">Today</button>
-                        <button class="btn-f">리딩북</button>
-                        <button class="btn-f">북클럽</button>
-                        <button class="btn-f">Pick</button>
-                        <button class="btn-f">Plus</button>
-                    </div>
-                    <div>
-                        <div class="tab-h today tab-h-active">
-                            <div class="swiper-container slider">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide1.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide2.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide3.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide4.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide5.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide6.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide7.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide8.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide9.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide10.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide11.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide12.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide13.jpg" alt="">
-                                    </div>
-                                    <div class="swiper-slide slider-contents">
-                                        <img src="./image/slide14.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-pagination" onclick="location.href='./sub/slide_all.html'"></div>
-                            </div>
-                            <div class="today-book">
-
-                            </div>
-                            <div class="swiper-container multiple-book">
-                                <a href="">
-                                    <h2>title</h2>
-                                </a>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-container multiple-book">
-                                <a href="">
-                                    <h2>title</h2>
-                                </a>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-container multiple-book">
-                                <a href="">
-                                    <h2>title</h2>
-                                </a>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-container multiple-book">
-                                <a href="">
-                                    <h2>title</h2>
-                                </a>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                    <div class="swiper-slide multiple-book-contents" onclick="location.href=''">
-                                        <img src="./image/original-1.jpg" alt="">
-                                        <h6>book name</h6>
-                                        <p>writer</p>
-                                    </div>
-                                </div>
-                            </div>                            
-                        </div>
-                        <div class="tab-h">
-                            2
-                        </div>
-                        <div class="tab-h">
-                            3
-                        </div>
-                        <div class="tab-h">
-                            4
-                        </div>
-                        <div class="tab-h">
-                            5
-                        </div>
-                    </div>
-                </div>   
-                <div class="tab search">
-                    2
-                </div>    
-                <div class="tab feed">
-                    3
-                </div>   
-                <div class="tab library">
-                    4
-                </div>      
-                <div class="tab manage">
-                    5
+                <div class="home-header-fixed" lang="ko">
+                    <button class="btn-f btn-f-active">악기</button>
+                    <button class="btn-f">악세서리</button>
+                    <button class="btn-f">음반</button>
+                    <button class="btn-f">이벤트</button>
                 </div>
-            </div>            
+                <div>
+                    <!-- 홈 -->
+                    <div class="tab-h tab-h-active">
+                        <div class="swiper-container slider top">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slider-contents">
+                                    <img src="./image/slide/slide_1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide slider-contents">
+                                    <img src="./image/slide/slide_2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide slider-contents">
+                                    <img src="./image/slide/slide_3.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide slider-contents">
+                                    <img src="./image/slide/slide_4.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide slider-contents">
+                                    <img src="./image/slide/slide_5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="this-week">
+                            <a href="">
+                                <h3 lang="ko">이 주의 악기</h3>
+                            </a>
+                            <a href="">
+                                <p>fender - american telecaster thinline american elite</p>
+                            </a>
+                            <div>
+                                <img src="./image/today.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="multiple-post">                               
+                            <a href="">
+                                <h2>acoustic guitar</h2>
+                            </a>
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/acoustic/fender.jpg" alt="">
+                                        <h6>fender</h6>
+                                    </div> 
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/acoustic/gibson.jpg" alt="">
+                                        <h6>gibson</h6>
+                                    </div> 
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/acoustic/epiphone.jpg" alt="">
+                                        <h6>epiphone</h6>
+                                    </div> 
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/acoustic/gretsch.jpg" alt="">
+                                        <h6>gretsch</h6>
+                                    </div> 
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/acoustic/martin.jpg" alt="">
+                                        <h6>martin</h6>
+                                    </div>       
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/acoustic/taylor.jpg" alt="">
+                                        <h6>taylor</h6>
+                                    </div>                                                                                                 
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="multiple-post">                               
+                            <a href="">
+                                <h2>electric guitar</h2>
+                            </a>
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/guitar/fender.jpg" alt="">
+                                        <h6>fender</h6>
+                                    </div>  
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/guitar/gibson.jpg" alt="">
+                                        <h6>gibson</h6>
+                                    </div> 
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/guitar/epiphone.jpg" alt="">
+                                        <h6>epiphone</h6>
+                                    </div>  
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/guitar/gretsch.jpg" alt="">
+                                        <h6>gretsch</h6>
+                                    </div> 
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/guitar/prs.jpg" alt="">
+                                        <h6>p.r.s</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/guitar/yamaha.jpg" alt="">
+                                        <h6>yamaha</h6>
+                                    </div>   
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/guitar/ibanez.jpg" alt="">
+                                        <h6>ibanez</h6>
+                                    </div>   
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/guitar/suhr.jpg" alt="">
+                                        <h6>suhr</h6>
+                                    </div>  
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/guitar/rickenbacker.jpg" alt="">
+                                        <h6>rickenbacker</h6>
+                                    </div>                                                                                                         
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="multiple-post">                               
+                            <a href="">
+                                <h2>bass</h2>
+                            </a>
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/bass/fender.jpg" alt="">
+                                        <h6>fender</h6>
+                                    </div> 
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/bass/gibson.jpg" alt="">
+                                        <h6>gibson</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/bass/epiphone.jpg" alt="">
+                                        <h6>epiphone</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/bass/gretsch.jpg" alt="">
+                                        <h6>gretsch</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/bass/ibanez.jpg" alt="">
+                                        <h6>ibanez</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/bass/lakland.jpg" alt="">
+                                        <h6>lakland</h6>
+                                    </div>      
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/bass/yamaha.jpg" alt="">
+                                        <h6>yamaha</h6>
+                                    </div>          
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/bass/rickenbacker.jpg" alt="">
+                                        <h6>rickenbacker</h6>
+                                    </div>                                                 
+                                </div>
+                            </div>        
+                        </div>                            
+                        <div class="multiple-post">                               
+                            <a href="">
+                                <h2>drum</h2>
+                            </a>
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/drum/yamaha.jpg" alt="">
+                                        <h6>yamaha</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/drum/dixon.jpg" alt="">
+                                        <h6>dixon</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/drum/gretsch.jpg" alt="">
+                                        <h6>gretsch</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/drum/mapex.jpg" alt="">
+                                        <h6>mapex</h6>
+                                    </div> 
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/drum/pearl.jpg" alt="">
+                                        <h6>pearl</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/drum/sonor.jpg" alt="">
+                                        <h6>sonor</h6>
+                                    </div>          
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/drum/tama.jpg" alt="">
+                                        <h6>tama</h6>
+                                    </div>                                                      
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="multiple-post">                               
+                            <a href="">
+                                <h2>synthesizer</h2>
+                            </a>
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/synthesizer/yamaha.jpg" alt="">
+                                        <h6>yamaha</h6>
+                                    </div>     
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/synthesizer/korg.jpg" alt="">
+                                        <h6>korg</h6>
+                                    </div> 
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/synthesizer/kurzweil.jpg" alt="">
+                                        <h6>kurzweil</h6>
+                                    </div> 
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/synthesizer/roland.jpg" alt="">
+                                        <h6>roland</h6>
+                                    </div> 
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/synthesizer/novation.jpg" alt="">
+                                        <h6>novation</h6>
+                                    </div>        
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/synthesizer/behringer.jpg" alt="">
+                                        <h6>behringer</h6>
+                                    </div>                                                         
+                                </div>
+                            </div>        
+                        </div>
+                        <a href="" class="home-banner"></a>
+                        <div class="swiper-container recommendation">
+                            <h2 lang="ko">추천상품</h2>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" onclick="location.href=''">
+                                    <img src="./image/recommend/4003.jpg" alt="">
+                                    <h4>rickenbacker 4003</h4>
+                                    <p>2,990,000원</p>
+                                </div>
+                                <div class="swiper-slide" onclick="location.href=''">
+                                    <img src="./image/recommend/bigsky.jpg" alt="">
+                                    <h4>strymon bigsky</h4>
+                                    <p>590,000원</p>
+                                </div>
+                                <div class="swiper-slide" onclick="location.href=''">
+                                    <img src="./image/recommend/dmp925sp-maple.jpg" alt="">
+                                    <h4>pearl dmp925sp-maple 5pc</h4>
+                                    <p>4,800,000원</p>
+                                </div>
+                                <div class="swiper-slide" onclick="location.href=''">
+                                    <img src="./image/recommend/g5422g-12.jpg" alt="">
+                                    <h4>gretsch g5422g-12</h4>
+                                    <p>3,100,000원</p>
+                                </div>
+                                <div class="swiper-slide" onclick="location.href=''">
+                                    <img src="./image/recommend/jazzmaster.jpg" alt="">
+                                    <h4>fender jazzmaster professional</h4>
+                                    <p>2,700,000원</p>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>                      
+                    </div>             
+                    <!-- 악세서리  -->
+                    <div class="tab-h">
+                        <div class="multiple-post top">                               
+                            <a href="">
+                                <h2>effector</h2>
+                            </a>
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/effector/distortion.png" alt="">
+                                        <h6>distortion</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/effector/overdrive.jpg" alt="">
+                                        <h6>overdrive</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/effector/delay.jpg" alt="">
+                                        <h6>delay</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/effector/fuzz.jpg" alt="">
+                                        <h6>fuzz</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/effector/chorus.jpg" alt="">
+                                        <h6>chorus</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/effector/reverb.jfif" alt="">
+                                        <h6>reverb</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/effector/wah.jpg" alt="">
+                                        <h6>wah-wah</h6>
+                                    </div>                                                                                                           
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="multiple-post">                               
+                            <a href="">
+                                <h2>pickup</h2>
+                            </a>
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/pickup/single.jpg" alt="">
+                                        <h6>single</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/pickup/humbucker.jpg" alt="">
+                                        <h6>humbucker</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/pickup/bass.jpg" alt="">
+                                        <h6>bass</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/pickup/7strings.jpg" alt="">
+                                        <h6>7strings</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/pickup/5strings.jpg" alt="">
+                                        <h6>5strings</h6>
+                                    </div>                                                                                                          
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="multiple-post">                               
+                            <a href="">
+                                <h2>ETC.-1</h2>
+                            </a>
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/etc1/softcase.jpg" alt="">
+                                        <h6>soft case</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/etc1/hardcase.jpg" alt="">
+                                        <h6>hard case</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/etc1/board.jpg" alt="">
+                                        <h6>pedal board</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/etc1/multi.jpg" alt="">
+                                        <h6>multi effector</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/etc1/stand.jpg" alt="">
+                                        <h6>stand</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/etc1/music-stand.jpg" alt="">
+                                        <h6>music-stand</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/etc1/strap.jpg" alt="">
+                                        <h6>strap</h6>
+                                    </div>
+                                    <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                        <img src="./image/etc1/locks.jpg" alt="">
+                                        <h6>strap-locks</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multiple-post">                               
+                                <a href="">
+                                    <h2>ETC.-2</h2>
+                                </a>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                            <img src="./image/etc2/acoustic.png" alt="">
+                                            <h6>acoustic string</h6>
+                                        </div>
+                                        <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                            <img src="./image/etc2/guitar-string.jpg" alt="">
+                                            <h6>electric string</h6>
+                                        </div>
+                                        <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                            <img src="./image/etc2/bass-string.jpg" alt="">
+                                            <h6>bass string</h6>
+                                        </div>
+                                        <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                            <img src="./image/etc2/pick.jpg" alt="">
+                                            <h6>pick</h6>
+                                        </div>
+                                        <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                            <img src="./image/etc2/oil-cleaner.jpg" alt="">
+                                            <h6>oil & cleaner</h6>
+                                        </div>
+                                        <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                            <img src="./image/etc2/cable.jpg" alt="">
+                                            <h6>cable</h6>
+                                        </div>
+                                        <div class="swiper-slide multiple-post-contents" onclick="location.href=''">
+                                            <img src="./image/etc2/capo.jpg" alt="">
+                                            <h6>capo</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>           
+                        </div>
+                    </div>
+                    <!-- 음반 -->
+                    <div class="tab-h">
+                        <div class="record-intro top">
+                            <p>bohemian rhapsody ost</p>
+                        </div>
+                        <div class="record-recommendation">
+                            <h2 lang="ko">추천 음반</h2>
+                            <div class="record-r-btn" lang="ko">
+                                <button class="btn-r btn-r-active">주간</button>
+                                <button class="btn-r">월간</button>
+                                <button class="btn-r">분기</button>
+                                <button class="btn-r">연간</button>
+                            </div>
+                            <div>
+                                <div class="record record-active">
+                                    <div class="multiple-record">                               
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/trench.jpg" alt="">
+                                                        <h4>trench</h4>
+                                                        <p>twenty one pilots</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/queen.jpg" alt="">
+                                                        <h4>greatest hits</h4>
+                                                        <p>queen</p>
+                                                    </a>
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/imaginedragons.jpg" alt="">
+                                                        <h4>evolve</h4>
+                                                        <p>imagine dragons</p>
+                                                    </a>                                                 
+                                                </div>
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/grantgreen.jpg" alt="">
+                                                        <h4>idel moments</h4>
+                                                        <p>grant green</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/1975.jpg" alt="">
+                                                        <h4>the 1975</h4>
+                                                        <p>the 1975</p>
+                                                    </a>
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/gnr.jpg" alt="">
+                                                        <h4>appetite for destruction</h4>
+                                                        <p>guns n' roses</p>
+                                                    </a>                                                                                                    
+                                                </div>
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/rapgod.jpg" alt="">
+                                                        <h4>rap god</h4>
+                                                        <p>eminem</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/disco.jpg" alt="">
+                                                        <h4>pray for the wicked</h4>
+                                                        <p>panic! at the disco</p>
+                                                    </a>
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/avans.jpg" alt="">
+                                                        <h4>every digs</h4>
+                                                        <p>bill avans</p>
+                                                    </a>                                                 
+                                                </div>                                                
+                                            </div>
+                                        </div>       
+                                    </div>
+                                </div>
+                                <div class="record">
+                                    <div class="multiple-record">                               
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/eddietrio.jpg" alt="">
+                                                        <h4>prelude to a kiss</h4>
+                                                        <p>eddie higgins trio</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/m83.jpg" alt="">
+                                                        <h4>hury up, we're dreaming</h4>
+                                                        <p>m83</p>
+                                                    </a>
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/grantgreen.jpg" alt="">
+                                                        <h4>idel moments</h4>
+                                                        <p>grant green</p>
+                                                    </a>                                                
+                                                </div>
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/avans.jpg" alt="">
+                                                        <h4>every digs</h4>
+                                                        <p>bill avans</p>
+                                                    </a>    
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/marias.jpg" alt="">
+                                                        <h4>superclean vol.2</h4>
+                                                        <p>the marias</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/velvet.jpg" alt="">
+                                                        <h4>The Velvet Underground & Nico</h4>
+                                                        <p>The Velvet Underground & Nico</p>
+                                                    </a>                                                                                                    
+                                                </div>
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/oasis.jpg" alt="">
+                                                        <h4>definitely maybe</h4>
+                                                        <p>oasis</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/sigurros.jpg" alt="">
+                                                        <h4>takk...</h4>
+                                                        <p>sigur ros</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/neighbourhood.jpg" alt="">
+                                                        <h4>wiped out!</h4>
+                                                        <p>the neighbourhood</p>
+                                                    </a>                                             
+                                                </div>                                                
+                                            </div>
+                                        </div>       
+                                    </div>
+                                </div>
+                                <div class="record">
+                                    <div class="multiple-record">                               
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/21pilots.jpg" alt="">
+                                                        <h4>blurryface</h4>
+                                                        <p>twenty one pilots</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/velvet.jpg" alt="">
+                                                        <h4>The Velvet Underground & Nico</h4>
+                                                        <p>The Velvet Underground & Nico</p>
+                                                    </a>
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/led.jpg" alt="">
+                                                        <h4>mothership</h4>
+                                                        <p>led zeppelin</p>
+                                                    </a>                                                 
+                                                </div>
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/oasis.jpg" alt="">
+                                                        <h4>definitely maybe</h4>
+                                                        <p>oasis</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/metallica.jpg" alt="">
+                                                        <h4>master of puppets</h4>
+                                                        <p>metallica</p>
+                                                    </a>
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/gaga.png" alt="">
+                                                        <h4>joanne</h4>
+                                                        <p>lady gaga</p>
+                                                    </a>                                                                                                    
+                                                </div>
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/eddietrio.jpg" alt="">
+                                                        <h4>prelude to a kiss</h4>
+                                                        <p>eddie higgins trio</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/doors.jpg" alt="">
+                                                        <h4>the doors</h4>
+                                                        <p>the doors</p>
+                                                    </a>
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/sigurros.jpg" alt="">
+                                                        <h4>takk...</h4>
+                                                        <p>sigur ros</p>
+                                                    </a>                                             
+                                                </div>                                                
+                                            </div>
+                                        </div>       
+                                    </div>
+                                </div>
+                                <div class="record">
+                                    <div class="multiple-record">                               
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/doors.jpg" alt="">
+                                                        <h4>the doors</h4>
+                                                        <p>the doors</p>
+                                                    </a>
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/abbeyroad.jpg" alt="">
+                                                        <h4>abbey road</h4>
+                                                        <p>the beatles</p>
+                                                    </a>
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/m83.jpg" alt="">
+                                                        <h4>hury up, we're dreaming</h4>
+                                                        <p>m83</p>
+                                                    </a>                                                 
+                                                </div>
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/marias.jpg" alt="">
+                                                        <h4>superclean vol.2</h4>
+                                                        <p>the marias</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/mcr.jpg" alt="">
+                                                        <h4>the black parade</h4>
+                                                        <p>my chemical romance</p>
+                                                    </a>
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/circawaves.jpg" alt="">
+                                                        <h4>t-shirt weather</h4>
+                                                        <p>circa waves</p>
+                                                    </a>                                                                                                    
+                                                </div>
+                                                <div class="swiper-slide multiple-record-contents">
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/neighbourhood.jpg" alt="">
+                                                        <h4>wiped out!</h4>
+                                                        <p>the neighbourhood</p>
+                                                    </a> 
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/sigurros.jpg" alt="">
+                                                        <h4>takk...</h4>
+                                                        <p>sigur ros</p>
+                                                    </a>
+                                                    <a href="" class="record-content">
+                                                        <img src="./image/record/smokers.jpg" alt="">
+                                                        <h4>pairs</h4>
+                                                        <p>the chainsmokers</p>
+                                                    </a>                                                 
+                                                </div>                                                
+                                            </div>
+                                        </div>       
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                        <a href="" class="record-banner"></a>
+                        <div>
+                            <h2 lang="ko">새로나온앨범</h2>
+                            <div class="new-record">
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/trench.jpg" alt="">
+                                    <h4>trench</h4>
+                                    <p>twenty one pilots</p>
+                                </a>
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/alot.jpg" alt="">
+                                    <h4>a lot</h4>
+                                    <p>21 savage</p>
+                                </a>
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/disco.jpg" alt="">
+                                    <h4>pray for the wicked</h4>
+                                    <p>panic! at the disco</p>
+                                </a>
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/natural.jpg" alt="">
+                                    <h4>natural</h4>
+                                    <p>imagine dragons</p>
+                                </a>
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/Panda-Bear.jpg" alt="">
+                                    <h4>buoys</h4>
+                                    <p>panda bear</p>
+                                </a>
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/jessica-pratt.jpg" alt="">
+                                    <h4>quiet sings</h4>
+                                    <p>jessica pratt</p>
+                                </a>
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/toro-y-moi.jpg" alt="">
+                                    <h4>outer peace</h4>
+                                    <p>toro y moi</p>
+                                </a>
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/william-tyler.jpg" alt="">
+                                    <h4>goes west</h4>
+                                    <p>william tyler</p>
+                                </a>
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/sharon-van-etten.jpg" alt="">
+                                    <h4>remind me tomorrow</h4>
+                                    <p>sharon van etten</p>
+                                </a>
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/when-we-all-fall-asleep-where-do-we-go.jpg" alt="">
+                                    <h4>when we all fall asleep, where do we go</h4>
+                                    <p>billie eilish</p>
+                                </a>
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/titanic-rising.jpg" alt="">
+                                    <h4>weyes blood</h4>
+                                    <p>titanic rising</p>
+                                </a>
+                                <a href="" class="new-record-content">
+                                    <img src="./image/record/beware-of-the-dogs.jpg" alt="">
+                                    <h4>beware of the dogs</h4>
+                                    <p>stella donnelly</p>
+                                </a>
+                            </div>                       
+                        </div>
+                    </div>
+                    <!-- 이벤트 -->
+                    <div class="tab-h">
+                        <div class="event-box" lang="ko">
+                            <a href="" class="event top">
+                                <img src="./image/event/event-1.jpg" alt="">
+                                <h6>Fender 드림팩토리 증정 이벤트</h6>
+                                <p>2019.04.20 ~ 2019.05.07</p>
+                            </a>
+                            <a href="" class="event top">
+                                <img src="./image/event/event-2.jpg" alt="">
+                                <h6>Hartke 특가할인</h6>
+                                <p>2019.04.14 ~ 2019.04.31</p>
+                            </a>
+                            <a href="" class="event">
+                                <img src="./image/event/event-3.jpg" alt="">
+                                <h6>Schecter 이벤트</h6>
+                                <p>2019.04.07 ~ 2019.04.31</p>
+                            </a>
+                            <a href="" class="event">
+                                <img src="./image/event/event-4.jpg" alt="">
+                                <h6>Fender 하모니카 증정 이벤트</h6>
+                                <p>2019.03.15 ~ 2019.04.16</p>
+                            </a>
+                            <a href="" class="event">
+                                <img src="./image/event/event-5.jpg" alt="">
+                                <h6>ibanez 2019 신제품 할인</h6>
+                                <p>2019.03.01 ~ 2019.03.16</p>
+                            </a>
+                            <a href="" class="event">
+                                <img src="./image/event/event-6.jpg" alt="">
+                                <h6>Fender 정품 등록 이벤트</h6>
+                                <p>2019.02.18 ~ 2019.03.07</p>
+                            </a>
+                            <a href="" class="event">
+                                <img src="./image/event/event-7.jpg" alt="">
+                                <h6>Az시리즈 예약구매 이벤트</h6>
+                                <p>2019.02.07 ~ 2019.02.28</p>
+                            </a>
+                            <a href="" class="event">
+                                <img src="./image/event/event-8.jpg" alt="">
+                                <h6>스트럼버디 체험단 이벤트</h6>
+                                <p>2019.02.05 ~ 2019.02.20</p>
+                            </a>
+                            <a href="" class="event">
+                                <img src="./image/event/event-9.jpg" alt="">
+                                <h6>야마하 MX88 세미나</h6>
+                                <p>2019.01.20 ~ 2019.01.23</p>
+                            </a>
+                            <a href="" class="event">
+                                <img src="./image/event/event-10.jpg" alt="">
+                                <h6>마틴-D28 이벤트</h6>
+                                <p>2019.01.15 ~ 2019.03.16</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>      
         </div>
+        <footer class="footer">
+            <div class="footer-icon-box">
+                <button class="footer-icon">
+                    <img src="./image/icon/facebook.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="./image/icon/instagram.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="./image/icon/youtube.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="./image/icon/tumblr.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="./image/icon/twitter.svg" alt="">
+                </button>
+            </div>
+            <div class="footer-btn-box" lang="ko">
+                <button class="footer-btn" onclick="location.href='./sub/customer-faq.html'">자주 찾는 FAQ</button>
+                <button class="footer-btn" onclick="location.href='./sub/customer-oto.html'">1:1 문의</button>
+                <button class="footer-btn" onclick="location.href='./sub/customer-announce.html'">공지사항</button>
+            </div>
+            <div class="info" lang="ko">
+                <h6>(주)악기몰 사업자 정보</h6>
+                <p>대표이사 김주호</p>
+                <p>문의 김주호 (midnightperfume93@gamil.com)</p>
+                <p>사업자 등록번호 000-00-00000</p>
+                <p>주소 경기도 안산시 상록구 중보로 22</p>
+                <p>고객센터 070-0000-0000</p>
+                <p>©2019. (주)악기몰</p>
+            </div>
+        </footer>     
     </body>
     <script src="./js/tab.js"></script>
     <script>
@@ -404,12 +850,61 @@
             loop: true,
             pagination: {
                 el: '.swiper-pagination',
-                type: 'fraction',
+                clickable: true,
             },            
+            autoplay: {
+                delay: 2500,
+            },
+            observer: true,
+            observeParents: true,
         });
-        let swiperMultiple = new Swiper('.multiple-book', {
-            slidesPerView: 5.2,
+
+        $(".slider").mouseenter(function() {
+            swiperIntro.autoplay.stop();
+        });
+
+        $(".slider").mouseleave(function() {
+            swiperIntro.autoplay.start();
+        });
+
+        let swiperMultiplePost = new Swiper('.multiple-post .swiper-container', {
+            slidesPerView: 4.8,
             spaceBetween: 10,
+            freeMode: true,
+            observer: true,
+            observeParents: true,
+        });
+
+        var swiperRecommendation = new Swiper('.recommendation', {
+            loop: true,
+            slidesPerView: '1.2',
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+            },
+            observer: true,
+            observeParents: true,
+        });
+
+        $(".recommendation").mouseenter(function() {
+            swiperRecommendation.autoplay.stop();
+        });
+
+        $(".recommendation").mouseleave(function() {
+            swiperRecommendation.autoplay.start();
+        });
+       
+        let swiperMultipleRecord = new Swiper('.multiple-record .swiper-container', {
+            slidesPerView: 2.2,
+            spaceBetween: 0,
+            freeMode: true,
+            observer: true,
+            observeParents: true,
         });
     </script>
 </html>

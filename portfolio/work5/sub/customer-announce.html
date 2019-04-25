@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ko">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale = 1, minimum-scale = 1, maximum-scale = 1, width=device-width">
+
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/sub/customer-common.css">
+        <link rel="stylesheet" href="../css/sub/customer-announce.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="header-top">     
+            <div>
+                <a href="../index.html">
+                    <img src="../image/back.svg" alt="">
+                </a>
+                <h3>공지사항</h3>
+            </div>               
+        </div>
+        <div id="wrap">
+            <div class="customer-tab">
+                <button class="btn-c" onclick="location.href='./customer-faq.html'">FAQ</button>
+                <button class="btn-c" onclick="location.href='./customer-oto.html'">1:1 문의</button>
+                <button class="btn-c btn-c-active" onclick="location.href='./customer-announce.html'">공지사항</button>
+                <button class="btn-c" onclick="location.href='./customer-terms.html'">이용약관</button>
+            </div>
+            <div class="announce-wrap">          
+                <div class="announce">
+                    <input id="announce-1" type="checkbox" name="tabs" />
+                    <label for="announce-1">택배사 휴무에 따른 배송안내</label>
+                    <div class="announce-content">
+                        <p>당사가 이용하는 로젠택배사의 휴무에 따라 배송이 지연됨을 알려드립니다.</p>
+                        <p>휴무 일정은 12월 29일 토요일 부터 1월 1일 화요일 까지 입니다.</p>
+                        <p>이 기간 동안 주문하신 제품들은 1월 2일 일괄 발송될 예정입니다.</p>
+                        <p>실제 제품을 수령하시는 것은 1월 3일 또는 1월 4일이 될 것으로 예상됩니다.</p>
+                        <p>휴무 기간 이후 택배 물량이 집중될 가능성이 있으므로 지역 택배 기사의 사정에 따라 조금 더 지연될 수도 있습니다.</p>
+                        <p>제품 구매에 참고해 주시기 바랍니다.</p>
+                    </div>
+                </div>
+               <div class="announce">
+                    <input id="announce-2" type="checkbox" name="tabs" />
+                    <label for="announce-2">Focusrite Pro 세미나 안내</label>
+                    <div class="announce-content">
+                        <p>오는 3월 30일 네트워크 오디오 세미나에 대한 세미나를 진행합니다.</p>
+                        <p>금번 세미나에서는 네트워크 오디오의 포맷 비교 등 이론과 실제 사례 연구에 이어 라이브녹음을 전개할 예정입니다.</p>
+                        <p>관심있는 분들의 많은 참여 부탁드립니다.</p>
+                    </div>
+                </div>
+                <div class="announce">
+                    <input id="announce-3" type="checkbox" name="tabs" />
+                    <label for="announce-3">Scarlett 2i2, 2i4 2nd Gen.(2세대) 국내 정식 발매</label>
+                    <div class="announce-content">
+                        <p>Focusrite 사의 Scarlett 시리즈의 Second Generation (2세대) 라인업의 국내 출시 소식 입니다.</p>
+                        <p>Scarlett 시리즈 전제품의 2nd Gen.(2세대) 제품이 출시되었으며, 그중 2i2 와 2i4 가 먼저 판매 시작되며, 나머지 제품들도 곧 정식 판매될 예정입니다.</p>
+                        <p>우선 2i2 와 2i4 가 금일부터 정식 판매되며, 나머지 제품들은 2019년 4월에 판매가 시작됩니다.</p>
+                        <p>판매가격은 기존 1세대 제품과 동일하게 책정했습니다.</p>
+                    </div>
+                </div>
+                <div class="announce">
+                    <input id="announce-4" type="checkbox" name="tabs" />
+                    <label for="announce-4">아카데미 페스티벌 4월 30일 종료 안내</label>
+                    <div class="announce-content">
+                        <p>두달여 진행되었던 [아카데미 페스티벌] 행사가 4월 30일에 예정대로 종료됩니다.</p>
+                        <p>행사기간 보내주신 많은 성원에 깊은 감사의 말씀 올립니다.</p>
+                        <p>5월 1일 부터는 행사 이전 정상판매가로 판매가 이루어지며, 환율 인상등으로 일부 제품은 행사 이전 보다 가격이 오르는 제품도 있습니다.</p>
+                        <p>[아카데미 페스티벌]은 종료되지만, 앞으로도 다양한 이벤트로 찾아뵙겠습니다.</p>
+                    </div>
+                </div>
+                <div class="announce">
+                    <input id="announce-5" type="checkbox" name="tabs" />
+                    <label for="announce-5">Cubase 10 출시 및 무상 업데이트 관련사항</label>
+                    <div class="announce-content">
+                        <p>기존 Cubase 9.5 과 Cubase Artist 9.5 의 경우, 2019년 2월 15일 이후 액티베이션 하는 모든 고객분들은 10 버전으로 무상 업데이트 하실 수 있습니다.</p>
+                    </div>
+                </div>
+                <div class="announce">
+                    <input id="announce-6" type="checkbox" name="tabs" />
+                    <label for="announce-6">Apogee 홈 레코딩 세일 4월 30일 종료</label>
+                    <div class="announce-content">
+                        <p>Apogee 제품의 할인이 4월 30일부로 종료됩니다.</p>
+                    </div>
+                </div>
+                <div class="announce">
+                    <input id="announce-7" type="checkbox" name="tabs" />
+                    <label for="announce-7">커즈와일 PC3X V1.0 OS 업그레이드</label>
+                    <div class="announce-content">
+                        <p>커즈와일 PC3X OS 가 V 1.0 으로 업그레이드 되었습니다.</p>
+                        <p>2차업데이트에 이어 3차업데이트에는 더욱 알찬 사운드들이 추가가 되었습니다.</p>
+                        <p>자세한 내용은 커즈와일 홈페이지 링크를 참고해 주세요.</p>
+                        <p>http://www.ycpiano.co.kr</p>
+                    </div>
+                </div>
+                <div class="announce">
+                    <input id="announce-8" type="checkbox" name="tabs" />
+                    <label for="announce-8">신디사이저 S90ES 노이즈 발생에 대한 무상수리 안내</label>
+                    <div class="announce-content">
+                        <p>Yamaha 사의 S90ES 모델에서 일부 노이즈가 발생하는 사례가 접수되어, 수리를 필요로하는 경우가 있어 공지합니다.</p>
+                        <p>보유하고 계신 제품이 해당사항이 있는지 확인하시고 아래 연락처로 연락하시면 조치가 가능합니다.</p>
+                        <p>높은 온도에서 전원을 off한 후 곧 바로 on을 할 경우 스피커 및 헤드폰에서 노이즈가 발생하는 경우가 있습니다.</p>
+                        <p>점검대상 제품의 제조번호</p>
+                        <p>
+                            ETALM01001 ETALN01024 ETALN01044 ETALN01060 ETALN01092 
+                            ETALN01001 ETALN01025 ETALN01045 ETALN01061 ETALN01093 
+                            ETALN01002 ETALN01026 ETALN01046 ETALN01062 ETALN01094 
+                            ETALN01003 ETALN01027 ETALN01047 ETALN01063 ETALN01095 
+                            ETALN01004 ETALN01028 ETALN01048 ETALN01065 ETALN01096 
+                            ETALN01006 ETALN01030 ETALN01050 ETALN01067 ETALN01098 
+                            ETALN01007 ETALN01031 ETALN01051 ETALN01068 ETALN01099 
+                            ETALN01008 ETALN01032 ETALN01052 ETALN01075 ETALN01100 
+                            ETALN01009 ETALN01033 ETALN01053 ETALN01080 ETALN01010
+                            ETALN01034 ETALN01054 ETALN01081 ETALN01011 ETALN01035
+                            ETALN01055 ETALN01082 ETALN01020 ETALN01036 ETALN01056 
+                            ETALN01088 ETALN01021 ETALN01037 ETALN01057 ETALN01089                             
+                            ETALN01022 ETALN01042 ETALN01058 ETALN01090 ETALN01023
+                            ETALN01043 ETALN01059 ETALN01091
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-icon-box">
+                <button class="footer-icon">
+                    <img src="../image/icon/facebook.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/instagram.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/youtube.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/tumblr.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/twitter.svg" alt="">
+                </button>
+            </div>
+            <div class="footer-btn-box">
+                <button class="footer-btn" onclick="location.href='./customer-faq.html'">자주 찾는 FAQ</button>
+                <button class="footer-btn" onclick="location.href='./customer-oto.html'">1:1 문의</button>
+                <button class="footer-btn" onclick="location.href='./customer-announce.html'">공지사항</button>
+            </div>
+            <div class="info">
+                <h6>(주)악기몰 사업자 정보</h6>
+                <p>대표이사 김주호</p>
+                <p>문의 김주호 (midnightperfume93@gamil.com)</p>
+                <p>사업자 등록번호 000-00-00000</p>
+                <p>주소 경기도 안산시 상록구 중보로 22</p>
+                <p>고객센터 070-0000-0000</p>
+                <p>©2019. (주)악기몰</p>
+            </div>
+        </footer>
+    </body>
+    <script src="../js/customer.js"></script>
+</html>

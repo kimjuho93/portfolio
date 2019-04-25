@@ -1,0 +1,138 @@
+#wrap {
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.header-top {
+    width: 100%;
+    height: 50px;   
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 .1px gray;
+    text-align: center;
+}
+
+.header-top div {
+    width: 700px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.header-top a {
+    display: block;
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-5%, -50%);
+}
+
+.header-top a img {
+    width: 100%;
+}
+
+.header-top h3 {
+    font-size: 26px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.btn-top-box {
+    width: 700px;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.btn-top {
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.btn-top-active {
+    color: orange;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: rgb(128, 128, 128);
+}
+
+.footer-icon-box {
+    width: 700px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-icon {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.footer-icon img {
+    width: 25px;
+}
+
+.footer-btn-box {
+    width: 700px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-btn {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid white;
+    box-sizing: border-box;
+    color: white;
+}
+
+.info {
+    text-align: center;
+    color: white;
+}
+
+.info h6 {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.info p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.info p:last-child {
+    padding-bottom: 50px;
+}

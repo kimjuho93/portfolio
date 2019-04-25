@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ko">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale = 1, minimum-scale = 1, maximum-scale = 1, width=device-width">
+
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/sub/customer-common.css">
+        <link rel="stylesheet" href="../css/sub/customer-oto.css">
+    </head>
+    <body>
+        <div class="header-top">     
+            <div>
+                <a href="../index.html">
+                    <img src="../image/back.svg" alt="">
+                </a>
+                <h3>1:1 문의</h3>
+            </div>               
+        </div>
+        <div id="wrap">
+            <div class="customer-tab">
+                <button class="btn-c" onclick="location.href='./customer-faq.html'">FAQ</button>
+                <button class="btn-c btn-c-active" onclick="location.href='./customer-oto.html'">1:1 문의</button>
+                <button class="btn-c" onclick="location.href='./customer-announce.html'">공지사항</button>
+                <button class="btn-c" onclick="location.href='./customer-terms.html'">이용약관</button>
+            </div>
+            <form action="#" name="oto" accept-charset="utf-8" method="post">
+                <div class="oto-wrap">
+                    <div class="ask">
+                        <select name="category" id="category">
+                            <option value="none" disabled selected >문의사항을 선택해주세요.</option>
+                            <option value="">결제 문의</option>
+                            <option value="">환불 문의</option>                            
+                            <option value="">리페어 문의</option>                            
+                            <option value="">기타 문의</option>                                                       
+                        </select>                        
+                        <input type="text" name="title" placeholder="제목을 입력해주세요." required />
+                        <textarea name="ask-contents" id="ask-contents" required>
+                            
+어떤 문제가 있으신가요? 아래 내용을 자세히 적어주시면 문제를 더욱 빨리 처리할 수 있습니다.
+
+• 악기종류 :
+
+• 브랜드 :
+
+• 문의 내용 :
+                        </textarea>                          
+                    </div>
+                    <div class="personal">
+                        <label for="file">첨부파일</label>
+                        <input type="file" name="file" id="file" />
+                    </div>
+                    <div class="personal">
+                        <label for="e-mail">이메일을 적어주세요.</label>
+                        <input type="text" name="e-mail" id="e-mail" required />
+                    </div>
+                    <div class="personal">
+                        <label for="phone">전화번호를 적어주세요.</label>
+                        <input type="text" name="e-mail" id="phone" required />
+                    </div>
+                    <div class="personal">
+                        <label for="check">개인정보 수집 및 이용 동의</label>
+                        <input type="checkbox" name="check" id="check" required />
+                    </div>
+                    <div class="personal">
+                        <input type="submit" name="submit" value="보내기" />
+                    </div>
+                </div>
+            </form>            
+        </div>
+        <footer class="footer">
+            <div class="footer-icon-box">
+                <button class="footer-icon">
+                    <img src="../image/icon/facebook.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/instagram.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/youtube.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/tumblr.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/twitter.svg" alt="">
+                </button>
+            </div>
+            <div class="footer-btn-box">
+                <button class="footer-btn" onclick="location.href='./customer-faq.html'">자주 찾는 FAQ</button>
+                <button class="footer-btn" onclick="location.href='./customer-oto.html'">1:1 문의</button>
+                <button class="footer-btn" onclick="location.href='./customer-announce.html'">공지사항</button>
+            </div>
+            <div class="info">
+                <h6>(주)악기몰 사업자 정보</h6>
+                <p>대표이사 김주호</p>
+                <p>문의 김주호 (midnightperfume93@gamil.com)</p>
+                <p>사업자 등록번호 000-00-00000</p>
+                <p>주소 경기도 안산시 상록구 중보로 22</p>
+                <p>고객센터 070-0000-0000</p>
+                <p>©2019. (주)악기몰</p>
+            </div>
+        </footer>
+    </body>
+</html>

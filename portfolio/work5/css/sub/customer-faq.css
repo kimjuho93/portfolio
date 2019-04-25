@@ -1,0 +1,83 @@
+.faq-wrap {
+    width: 100%;
+    width: auto;
+    background: rgb(230, 230, 230);
+    display: grid;
+    display: -webkit-grid;
+    display: -moz-grid;
+    display: -ms-grid; 
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(auto, auto);
+    grid-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.faq {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(150, 150, 150);
+    background: white;
+}
+
+.faq input {
+    position: absolute;
+    opacity: 0;
+    z-index: -9;
+}
+
+.faq label {
+    position: relative;
+    display: block;
+    font-weight: bold;
+    line-height: 3;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.faq-content {
+    height: 0;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-break: keep-all;
+    font-size: 14px;
+}
+
+.faq input:checked ~ .faq-content {
+    height: auto;
+}
+
+.faq label::after {
+    content: "\25BC";
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+}
+
+.telephone {
+    width: 90%;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.telephone h6 {
+    font-size: 16px;
+    margin: 0;
+    padding: 10px;
+}
+
+.telephone p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    padding: 5px;
+}

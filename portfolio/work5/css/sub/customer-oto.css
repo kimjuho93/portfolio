@@ -1,0 +1,106 @@
+.oto-wrap {
+    width: 100%;
+    height: auto;
+    background: rgb(230, 230, 230);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.ask {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+
+.ask select {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.ask option {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.opt {
+    height: 60px;
+}
+
+.ask option[value="none"] {
+    display: none;
+}
+
+.ask input {
+    width: 100%;
+    line-height: 3;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    box-sizing: border-box;
+}
+
+.ask textarea {
+    width: 100%;
+    height: 300px;
+    padding-left: 10px;
+    resize: none;
+    box-sizing: border-box;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.personal {
+    width: 100%;
+    height: auto;
+    background: rgb(230, 230, 230);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.personal label {
+    display: block;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-bottom: 5px;
+}
+
+.personal input[type="text"]{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3;
+    border: 1px solid rgb(230, 230, 230);
+    box-sizing: border-box;
+}
+
+.personal input[type="file"] {
+    margin-left: 5%;
+}
+
+.personal input[type="checkbox"] {
+    display: block;
+    margin-left: 5%;
+}
+
+.personal input[type="submit"]{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3;
+    box-sizing: border-box;
+    background: blueviolet;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}

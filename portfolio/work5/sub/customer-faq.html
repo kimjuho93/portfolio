@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ko">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale = 1, minimum-scale = 1, maximum-scale = 1, width=device-width">
+
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/sub/customer-common.css">
+        <link rel="stylesheet" href="../css/sub/customer-faq.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="header-top">     
+            <div>
+                <a href="../index.html">
+                    <img src="../image/back.svg" alt="">
+                </a>
+                <h3>FAQ</h3>
+            </div>               
+        </div>
+        <div id="wrap">
+            <div class="customer-tab">
+                <button class="btn-c btn-c-active" onclick="location.href='./customer-faq.html'">FAQ</button>
+                <button class="btn-c" onclick="location.href='./customer-oto.html'">1:1 문의</button>
+                <button class="btn-c" onclick="location.href='./customer-announce.html'">공지사항</button>
+                <button class="btn-c" onclick="location.href='./customer-terms.html'">이용약관</button>
+            </div>
+            <div class="faq-wrap">          
+                <div class="faq">
+                    <input id="faq-1" type="checkbox" name="tabs" />
+                    <label for="faq-1">반품이 불가능한 경우는 무엇인가요?</label>
+                    <div class="faq-content">
+                        <p>- 수령한 날로부터 20일을 초과한 상품</p>
+                        <p>- 수령 상품의 하자를 확인한 날로부터 30일을 초과한 상품</p>
+                        <p>- 수령 상품의 하자를 확인하였으나, 수령일로부터 90일을 초과한 상품</p>
+                        <p>- 증정품 및 부록 등이 함께 반송되지 않은 상품</p>
+                        <p>- 상품 성능에 하자가 없으나, 비닐 및 케이스 등을 제거하여 재판매가 불가능한 상품</p>
+                        <p>- 세트 상품 구입 후 일부 낱개상품</p>                
+                    </div>
+                </div>
+                <div class="faq">
+                    <input id="faq-2" type="checkbox" name="tab" />
+                    <label for="faq-2">배송중 분실의 경우 환불은 해주시나요?</label>
+                    <div class="faq-content">
+                        <p>- 배송중 분실은 당사와 배송업체에서 책임을 지고 있습니다</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <input id="faq-3" type="checkbox" name="tab" />
+                    <label for="faq-3">리페어는 어떻게 진행되나요?</label>
+                    <div class="faq-content">
+                        <p>- 전문 리페어샵에서 진행합니다.</p>
+                        <p>- 상태에 따라서 최대 14일 소요될 수 있습니다.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <input id="faq-4" type="checkbox" name="tab" />
+                    <label for="faq-4">상품 품목에 없는제품을 구매하고 싶어요.</label>
+                    <div class="faq-content">
+                        <p>- 상품 품목외의 제품은 국내 제작의 경우는 가능합니다.</p>
+                        <p>- 해외 브랜드의 경우나 희귀 악기의 경우는 주문이 불가능 할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <input id="faq-5" type="checkbox" name="tab" />
+                    <label for="faq-5">카드 할부는 최장 몇개월까지 가능한가요?</label>
+                    <div class="faq-content">
+                        <p>- 최장 24개월 할부가 가능합니다.</p>
+                        <p>- 무이자 할부의 경우는 카드사마다 다르므로 확인해 주시기 바랍니다.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <input id="faq-6" type="checkbox" name="tab" />
+                    <label for="faq-6">오프라인 매장은 몇시까지 오픈하나요?</label>
+                    <div class="faq-content">
+                        <p>- 평일/토요일 10:30 ~ 22:00, 일요일 12:00 ~ 18:00 입니다.</p>
+                        <p>- 국경일은 휴무입니다.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <input id="faq-7" type="checkbox" name="tab" />
+                    <label for="faq-7">온라인몰에 있는 제품은 매장에도 있나요?</label>
+                    <div class="faq-content">
+                        <p>- 일부 희귀제품과 고가의 제품은 매장에 전시되어 있지 않습니다.</p>
+                        <p>- 매장에 방문전 문의 바랍니다.</p>
+                    </div>
+                </div>                
+                <div class="telephone">
+                    <h6>고객센터 070-0000-0000</h6>
+                    <p>평일 10:00 ~ 18:00 (점심시간 13:00 ~ 14:00)</p>
+                    <p>토,일,공휴일은 쉽니다.</p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-icon-box">
+                <button class="footer-icon">
+                    <img src="../image/icon/facebook.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/instagram.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/youtube.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/tumblr.svg" alt="">
+                </button>
+                <button class="footer-icon">
+                    <img src="../image/icon/twitter.svg" alt="">
+                </button>
+            </div>
+            <div class="footer-btn-box">
+                <button class="footer-btn" onclick="location.href='./customer-faq.html'">자주 찾는 FAQ</button>
+                <button class="footer-btn" onclick="location.href='./customer-oto.html'">1:1 문의</button>
+                <button class="footer-btn" onclick="location.href='./customer-announce.html'">공지사항</button>
+            </div>
+            <div class="info">
+                <h6>(주)악기몰 사업자 정보</h6>
+                <p>대표이사 김주호</p>
+                <p>문의 김주호 (midnightperfume93@gamil.com)</p>
+                <p>사업자 등록번호 000-00-00000</p>
+                <p>주소 경기도 안산시 상록구 중보로 22</p>
+                <p>고객센터 070-0000-0000</p>
+                <p>©2019. (주)악기몰</p>
+            </div>
+        </footer>
+    </body>
+    <script src="../js/customer.js"></script>
+</html>

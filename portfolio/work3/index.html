@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>KimJuho work3</title>
     
@@ -11,49 +11,71 @@
     </head>
     <body>
         <div id="wrap">
+            
             <button class="btn-in">sign up</button>
             <button class="btn-up">sign in</button>
             <div class="s-in">
                 <h1>sign in</h1>
                 <div class="container">
-                    <div class="group">      
-                        <input type="text" required />
-                        <span class="bar"></span>
-                        <label>e-mail</label>
-                    </div>
-                    <div class="group">      
-                        <input type="text" required />
-                        <span class="bar"></span>
-                        <label>password</label>
-                    </div>
-                    <button class="confirm">confirm</button>
-                </div>         
-                
+                    <form action="#" name="sign in" accept-charset="utf-8" method="post">
+                        <div class="group">      
+                            <input type="text" required />
+                            <span class="bar"></span>
+                            <label>e-mail</label>
+                        </div>
+                        <div class="group">      
+                            <input type="text" required />
+                            <span class="bar"></span>
+                            <label>password</label>
+                        </div>
+                        <input type="submit" name="submit" value="submit" />
+                    </form>
+                </div>                  
+            </div>
+            <div class="s-in">
+                <h1>sign in</h1>
+                <div class="container">
+                    <form action="#" name="sign-in" accept-charset="utf-8" method="post">
+                        <div class="group">      
+                            <input type="text" required />
+                            <span class="bar"></span>
+                            <label>e-mail</label>
+                        </div>
+                        <div class="group">      
+                            <input type="password" required />
+                            <span class="bar"></span>
+                            <label>password</label>
+                        </div>
+                        <input type="submit" name="submit" value="submit" />
+                    </form>
+                </div>                  
             </div>
             <div class="s-up">                
                 <h1>sign up</h1>
                 <div class="container">
-                    <div class="group">      
-                        <input type="text" required id="name" />
-                        <span class="bar"></span>
-                        <label>Name</label>
-                    </div>
-                    <div class="group">      
-                        <input type="text" required id="e-mail" />
-                        <span class="bar"></span>
-                        <label>E-mail</label>
-                    </div>
-                    <div class="group">      
-                        <input type="password" required id="pw"/>
-                        <span class="bar"></span>
-                        <label>Password</label>
-                    </div>
-                    <div class="group">      
-                        <input type="password" required id="pw-confirm" />
-                        <span class="bar"></span>
-                        <label>Password Confirm</label>
-                    </div>
-                    <button class="confirm">confirm</button>
+                    <form action="#" name="sign-up" accept-charset="utf-8" method="post">
+                        <div class="group">      
+                            <input type="text" required />
+                            <span class="bar"></span>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="group">      
+                            <input type="text" required/>
+                            <span class="bar"></span>
+                            <label>E-mail</label>
+                        </div>
+                        <div class="group">      
+                            <input type="password" required/>
+                            <span class="bar"></span>
+                            <label>Password</label>
+                        </div>
+                        <div class="group">      
+                            <input type="password" required />
+                            <span class="bar"></span>
+                            <label>Password Confirm</label>
+                        </div>
+                        <input type="submit" name="submit" value="submit" />
+                    </form>
                 </div>                
             </div>
         </div>
