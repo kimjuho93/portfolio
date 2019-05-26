@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale = 1, minimum-scale = 1, maximum-scale = 1, width=device-width">
+        
+        <link rel="stylesheet" href="../../common/css/reset.css">
+        <link rel="stylesheet" href="../../common/css/common-style.css">
+        <link rel="stylesheet" href="../sub-common/css/sub-common-style.css">
+        <link rel="stylesheet" href="../sub-common/css/board-common-style.css">
+        <link rel="stylesheet" href="./css/style.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <header class="header">
+                <div class="nav-pc">
+                    <a href="../../index.html" class="logo"><img src="../../common/images/logo.png" alt="빽다방"></a>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="../about/greeting/index.html">빽다방</a>
+                                <ul>
+                                <li><a href="../about/greeting/index.html">CEO 인사말</a></li>
+                                <li><a href="../about/intro/index.html">빽다방 소개</a></li>
+                                <li><a href="../about/story/index.html">커피 이야기</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../menu/menu_new/index.html">메뉴</a>
+                                <ul>
+                                <li><a href="../menu/menu_new/index.html">신메뉴</a></li>
+                                <li><a href="../menu/menu_coffe/index.html">커피</a></li>
+                                <li><a href="../menu/menu_drink/index.html">음료</a></li>
+                                <li><a href="../menu/menu_dessert/index.html">아이스크림/디저트</a></li>
+                                <li><a href="../menu/menu_ccino/index.html">빽스치노</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../news/index.html">소식</a>
+                                <ul>
+                                <li><a href="../news/index.html">소식</a></li>
+                                <li><a href="../news/index.html">이벤트</a></li>
+                                <li><a href="../news/index.html">당첨자 발표</a></li>
+                                <li><a href="../news/index.html">친절 우수매장</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../community/coffeeclass/index.html">커뮤니티</a>
+                                <ul>
+                                <li><a href="../community/coffeeclass/index.html">커피 클래스</a></li>
+                                <li><a href="../community/supporter/index.html">서포터즈</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./index.html">매장안내</a>
+                            </li>
+                            <li><a href="../franchise/index.html">창업안내</a>
+                            </li>
+                            <li><a href="../contact/index.html">고객의 소리</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav-m">
+                    <a href="../../index.html" class="logo"><img src="../../common/images/logo-m.png" alt="빽다방"></a>
+                    <a class="m-menu-btn"><span></span></a>
+                </div>
+                <nav class="slide-menu">
+                    <ul>
+                        <li><a class="down-drop">빽다방</a>
+                            <ul>
+                            <li><a href="../about/greeting/index.html">CEO 인사말</a></li>
+                            <li><a href="../about/intro/index.html">빽다방 소개</a></li>
+                            <li><a href="../about/story/index.html">커피 이야기</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="down-drop">메뉴</a>
+                            <ul>
+                            <li><a href="../menu/menu_new/index.html">신메뉴</a></li>
+                            <li><a href="../menu/menu_coffe/index.html">커피</a></li>
+                            <li><a href="../menu/menu_drink/index.html">음료</a></li>
+                            <li><a href="../menu/menu_dessert/index.html">아이스크림/디저트</a></li>
+                            <li><a href="../menu/menu_ccino/index.html">빽스치노</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="down-drop">소식</a>
+                            <ul>
+                            <li><a href="../news/index.html">소식</a></li>
+                            <li><a href="../news/index.html">이벤트</a></li>
+                            <li><a href="../news/index.html">당첨자 발표</a></li>
+                            <li><a href="../news/index.html">친절 우수매장</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="down-drop">커뮤니티</a>
+                            <ul>
+                            <li><a href="../community/coffeeclass/index.html">커피 클래스</a></li>
+                            <li><a href="../community/supporter/index.html">서포터즈</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./index.html">매장안내</a>
+                        </li>
+                        <li><a href="../franchise/index.html">창업안내</a>
+                        </li>
+                        <li><a href="../contact/index.html">고객의 소리</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="intro" style="background: url('./images/visual.jpg') no-repeat center center;">
+                <h1>소식</h1>
+                <p class="intro-sub-title">
+                    다양한 이벤트와 새로운 소식을 확인하세요!
+                </p>
+            </div>
+            <div class="container">
+                <div class="search">
+                    <div class="search-area">
+                        <span class="search-title">지역 검색</span>
+                        <div class="search-area-province">
+                            <label for="search-area-province"></label>
+                            <select name="" id="search-area-province">
+                                <option value="" selected>전체</option>
+                                <option value="">서울특별시</option>
+                                <option value="">경기도</option>
+                            </select>
+                        </div> 
+                        <div class="search-area-city">
+                            <label for="search-area-city"></label>
+                            <select name="" id="search-area-city">
+                                <option value="" selected>전체</option>
+                            </select>
+                        </div>                         
+                    </div>
+                    <div class="search-text">
+                        <span class="search-title">매장명 검색</span>
+                        <div class="search-text-box">
+                            <label for="search-text-box">
+                                <input type="text" id="search-text-box" />
+                                <button oncontextmenu="return false" ondragstart="return false">
+                                    <img src="./images/search.svg" alt="">
+                                </button>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <p class="total">총 596개의 매장이 있습니다.</p>
+                <div class="board-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="area">지역</th>
+                                <th class="shop">매장명</th>
+                                <th class="adress">주소</th>
+                                <th class="phone">전화번호</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="shop-overview">
+                                <td class="area">경기도</td>
+                                <td class="shop">의정부신곡점</td>
+                                <td class="adress">경기 의정부시 발곡로 24</td>
+                                <td class="phone">031-826-5657</td>
+                            </tr>
+                            <tr class="shop-detail">
+                                <td colspan="4">
+                                    <div class="shop-detail-inner">
+                                        <div>
+                                            <img src="./images/1.png" alt="">
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li><p class="shop-detail-inner-title">위치</p><p>경기 의정부시 발곡로 24</p></li>
+                                                <li><p class="shop-detail-inner-title">영업시간</p><p>10:00 ~ 22:00</p></li>
+                                                <li><p class="shop-detail-inner-title">주차</p><p>불가능</p></li>
+                                                <li><p class="shop-detail-inner-title">전화번호</p><p>031-826-5657</p></li>
+                                                <li><p class="shop-detail-inner-title">휴일</p><p>연중무휴</p></li>
+                                                <li><p class="shop-detail-inner-title">좌석</p><p>8테이블 16석</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="shop-overview">
+                                <td class="area">경기도</td>
+                                <td class="shop">대화역점</td>
+                                <td class="adress">경기도 고양시 일산서구 중앙로 1568(대화동, 하성프라자)</td>
+                                <td class="phone">031-911-4999</td>
+                            </tr>
+                            <tr class="shop-detail">
+                                <td colspan="4">
+                                    <div class="shop-detail-inner">
+                                        <div>
+                                            <img src="./images/2.png" alt="">
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li><p class="shop-detail-inner-title">위치</p><p>경기도 고양시 일산서구 중앙로 1568(대화동, 하성프라자)</p></li>
+                                                <li><p class="shop-detail-inner-title">영업시간</p><p>08:00 ~ 22:00</p></li>
+                                                <li><p class="shop-detail-inner-title">주차</p><p>불가능</p></li>
+                                                <li><p class="shop-detail-inner-title">전화번호</p><p>031-911-4999</p></li>
+                                                <li><p class="shop-detail-inner-title">휴일</p><p>연중무휴</p></li>
+                                                <li><p class="shop-detail-inner-title">좌석</p><p>1테이블 2석</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="shop-overview">
+                                <td class="area">경기도</td>
+                                <td class="shop">성남신흥역점</td>
+                                <td class="adress">경기도 성남시 수정구 산성대로 267, 1층 119-1호(신흥동)</td>
+                                <td class="phone">031-733-8889</td>
+                            </tr>
+                            <tr class="shop-detail">
+                                <td colspan="4">
+                                    <div class="shop-detail-inner">
+                                        <div>
+                                            <img src="./images/3.png" alt="">
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li><p class="shop-detail-inner-title">위치</p><p>경기도 성남시 수정구 산성대로 267, 1층 119-1호(신흥동)</p></li>
+                                                <li><p class="shop-detail-inner-title">영업시간</p><p>월~금 08:00 ~ 22:00</p><p>토요일 10:00 ~ 22:00</p><p>일요일,공휴일 10:00 ~ 21:00</p></li>
+                                                <li><p class="shop-detail-inner-title">주차</p><p>가능</p></li>
+                                                <li><p class="shop-detail-inner-title">전화번호</p><p>031-733-8889</p></li>
+                                                <li><p class="shop-detail-inner-title">휴일</p><p>연중무휴</p></li>
+                                                <li><p class="shop-detail-inner-title">좌석</p><p>1테이블 3석</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="shop-overview">
+                                <td class="area">서울특별시</td>
+                                <td class="shop">봉천역점</td>
+                                <td class="adress">서울시 관악구 남부순환로 1729(봉천동 926-36)</td>
+                                <td class="phone">02-882-5585</td>
+                            </tr>
+                            <tr class="shop-detail">
+                                <td colspan="4">
+                                    <div class="shop-detail-inner">
+                                        <div>
+                                            <img src="./images/4.png" alt="">
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li><p class="shop-detail-inner-title">위치</p><p>서울시 관악구 남부순환로 1729(봉천동 926-36)</p></li>
+                                                <li><p class="shop-detail-inner-title">영업시간</p><p>평일 07:00 ~ 23:00(마지막 주문 22:30)</p><p>주말 08:00 ~ 23:00</p></li>
+                                                <li><p class="shop-detail-inner-title">주차</p><p>불가능</p></li>
+                                                <li><p class="shop-detail-inner-title">전화번호</p><p>02-882-5585</p></li>
+                                                <li><p class="shop-detail-inner-title">휴일</p><p>명절당일</p></li>
+                                                <li><p class="shop-detail-inner-title">좌석</p><p>4테이블 9석</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="shop-overview">
+                                <td class="area">인천광역시</td>
+                                <td class="shop">인천마전역점</td>
+                                <td class="adress">인천 서구 완정로 60</td>
+                                <td class="phone">032-568-5726</td>
+                            </tr>
+                            <tr class="shop-detail">
+                                <td colspan="4">
+                                    <div class="shop-detail-inner">
+                                        <div>
+                                            <img src="./images/5.png" alt="">
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li><p class="shop-detail-inner-title">위치</p><p>인천 서구 완정로 60</p></li>
+                                                <li><p class="shop-detail-inner-title">영업시간</p><p>09:00 ~ 22:00</p></li>
+                                                <li><p class="shop-detail-inner-title">주차</p><p>불가능</p></li>
+                                                <li><p class="shop-detail-inner-title">전화번호</p><p>032-568-5726</p></li>
+                                                <li><p class="shop-detail-inner-title">휴일</p><p>연중무휴</p></li>
+                                                <li><p class="shop-detail-inner-title">좌석</p><p>7테이블 11석</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="shop-overview">
+                                <td class="area">경기도</td>
+                                <td class="shop">김포풍무역점</td>
+                                <td class="adress">김포시 유현로 238번길 31 웅신타워 114호</td>
+                                <td class="phone">031-998-7540</td>
+                            </tr>
+                            <tr class="shop-detail">
+                                <td colspan="4">
+                                    <div class="shop-detail-inner">
+                                        <div>
+                                            <img src="./images/6.png" alt="">
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li><p class="shop-detail-inner-title">위치</p><p>김포시 유현로 238번길 31 웅신타워 114호</p></li>
+                                                <li><p class="shop-detail-inner-title">영업시간</p><p>평일 08:30 ~ 22:00</p><p>주말 09:00 ~ 22:00</p></li>
+                                                <li><p class="shop-detail-inner-title">주차</p><p>가능</p></li>
+                                                <li><p class="shop-detail-inner-title">전화번호</p><p>031-998-7540</p></li>
+                                                <li><p class="shop-detail-inner-title">휴일</p><p>연중무휴</p></li>
+                                                <li><p class="shop-detail-inner-title">좌석</p><p>11테이블 22석</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="shop-overview">
+                                <td class="area">경기도</td>
+                                <td class="shop">용인역북남부점</td>
+                                <td class="adress">경기도 용인시 처인구 명지로60번길 8-13</td>
+                                <td class="phone">031-335-9146</td>
+                            </tr>
+                            <tr class="shop-detail">
+                                <td colspan="4">
+                                    <div class="shop-detail-inner">
+                                        <div>
+                                            <img src="./images/7.png" alt="">
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li><p class="shop-detail-inner-title">위치</p><p>경기도 용인시 처인구 명지로60번길 8-13</p></li>
+                                                <li><p class="shop-detail-inner-title">영업시간</p><p>평일 08:00 ~ 23:00</p><p>주말 09:00 ~ 23:00</p></li>
+                                                <li><p class="shop-detail-inner-title">주차</p><p>지하주차장</p></li>
+                                                <li><p class="shop-detail-inner-title">전화번호</p><p>031-335-9146</p></li>
+                                                <li><p class="shop-detail-inner-title">휴일</p><p>연중무휴</p></li>
+                                                <li><p class="shop-detail-inner-title">좌석</p><p>9테이블 23석</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="shop-overview">
+                                <td class="area">광주광역시</td>
+                                <td class="shop">광주봉선쌍용점</td>
+                                <td class="adress">광주시 남구 봉선로 172 (봉선동 109-3번지)</td>
+                                <td class="phone">062-652-1121</td>
+                            </tr>
+                            <tr class="shop-detail">
+                                <td colspan="4">
+                                    <div class="shop-detail-inner">
+                                        <div>
+                                            <img src="./images/8.png" alt="">
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li><p class="shop-detail-inner-title">위치</p><p>광주시 남구 봉선로 172 (봉선동 109-3번지)</p></li>
+                                                <li><p class="shop-detail-inner-title">영업시간</p><p>평일 08:00 ~ 23:00</p><p>주말 09:00 ~ 22:00</p></li>
+                                                <li><p class="shop-detail-inner-title">주차</p><p>불가능</p></li>
+                                                <li><p class="shop-detail-inner-title">전화번호</p><p>062-652-1121</p></li>
+                                                <li><p class="shop-detail-inner-title">휴일</p><p>연중무휴</p></li>
+                                                <li><p class="shop-detail-inner-title">좌석</p><p>27테이블 44석</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="shop-overview">
+                                <td class="area">서울특별시</td>
+                                <td class="shop">장안동사거리점</td>
+                                <td class="adress">서울 동대문구 장한로 140</td>
+                                <td class="phone">02-2212-0423</td>
+                            </tr>
+                            <tr class="shop-detail">
+                                <td colspan="4">
+                                    <div class="shop-detail-inner">
+                                        <div>
+                                            <img src="./images/9.png" alt="">
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li><p class="shop-detail-inner-title">위치</p><p>서울 동대문구 장한로 140</p></li>
+                                                <li><p class="shop-detail-inner-title">영업시간</p><p>09:00 ~ 22:00</p></li>
+                                                <li><p class="shop-detail-inner-title">주차</p><p>불가능</p></li>
+                                                <li><p class="shop-detail-inner-title">전화번호</p><p>02-2212-0423</p></li>
+                                                <li><p class="shop-detail-inner-title">휴일</p><p>명절당일</p></li>
+                                                <li><p class="shop-detail-inner-title">좌석</p><p>4테이블 9석</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="shop-overview">
+                                <td class="area">서울특별시</td>
+                                <td class="shop">신논현점</td>
+                                <td class="adress">서울시 서초구 사평대로 367, 1층</td>
+                                <td class="phone">02-548-0410</td>
+                            </tr>
+                            <tr class="shop-detail">
+                                <td colspan="4">
+                                    <div class="shop-detail-inner">
+                                        <div>
+                                            <img src="./images/9.png" alt="">
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li><p class="shop-detail-inner-title">위치</p><p>서울시 서초구 사평대로 367, 1층</p></li>
+                                                <li><p class="shop-detail-inner-title">영업시간</p><p>평일 07:30 ~ 21:30</p><p>주말 10:00 ~ 21:00</p></li>
+                                                <li><p class="shop-detail-inner-title">주차</p><p>불가능</p></li>
+                                                <li><p class="shop-detail-inner-title">전화번호</p><p>02-548-0410</p></li>
+                                                <li><p class="shop-detail-inner-title">휴일</p><p>연중무휴</p></li>
+                                                <li><p class="shop-detail-inner-title">좌석</p><p>24테이블 56석</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <footer class="footer">
+                <div>
+                    <a class="footer-logo" href="">
+                        <img src="../../common/images/footer_logo.png" alt="">
+                    </a>
+                    <ul>
+                        <li>(주)더본코리아</li>
+                        <li>사업자등록번호 211-86-00870</li>
+                        <li>대표이사 백종원</li>      
+                    </ul>
+                    <ul>
+                        <li>주소: 서울시 강남구 봉은사로 1길 39 유성빌딩 4~6층</li>
+                        <li>팩스: 02-511-3864</li>        
+                    </ul>
+                    <ul>
+                        <li>본사 대표전화: 02-549-3864</li>
+                        <li>가맹상담전화: 02-3447-0410</li>
+                        <li>고객센터: 1544-2360</li> 
+                    </ul>
+                    <p>COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED</p>
+                    <div class="etc">
+                        
+                    </div>
+                </div>
+            </footer> 
+        </div>
+    </body>
+    <script src="../../common/js/m-menu.js"></script>
+    <script>
+        $(function(){
+            $('.shop-overview:nth-child(n)').click(function(){
+                $(this).toggleClass('shop-overview-active');
+                $('.shop-overview:nth-child(n)').not(this).removeClass('shop-overview-active');
+                $(this).next('.shop-detail').animate({ height: 'toggle' }, 0);
+                $('.shop-overview').not(this).next('.shop-detail').slideUp(0);
+            });
+        });
+    </script>
+</html>
+
+
+	
+
+
+
+<nav class="navigation pagination" role="navigation">
+	<div class="nav-links"><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="http://paikdabang.com/news/page/2/">2</a>
+<a class="page-numbers" href="http://paikdabang.com/news/page/3/">3</a>
+<a class="page-numbers" href="http://paikdabang.com/news/page/4/">4</a>
+<span class="page-numbers dots">…</span>
+<a class="page-numbers" href="http://paikdabang.com/news/page/8/">8</a>
+<a class="next page-numbers" href="http://paikdabang.com/news/page/2/"></a></div>
+	</nav>       

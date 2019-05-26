@@ -1,0 +1,18 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    word-break: keep-all;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.clear {
+    clear: both;
+}

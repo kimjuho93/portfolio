@@ -1,0 +1,165 @@
+.board-container {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 2px solid #0E347E;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.board-container table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.board-container table thead {
+    color: #0E347E;
+}
+
+.board-container table tbody .title, .board-container table tbody .sup-title{
+    text-align: left;
+}
+
+.board-container table tbody tr:hover {
+    background: #0E347E;
+    color: white;
+    font-weight: 600;
+}
+
+.board-container table tr {
+    box-shadow: 0 1px rgb(230, 230, 230);
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1150px;
+        margin: auto;
+    }
+
+    .board-container table th, .board-container table tr, .board-container table td {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .num {
+        width: 5%;
+    }
+    
+    .date, .view {
+        width: 10%;
+    }
+    
+    .subject, .Area, .shop {
+        width: 15%;
+    }
+    
+    .title {
+        width: 60%;        
+    }
+    
+    .address {
+        width: 50%;
+    }
+
+    .phone {
+        width: 20%;
+    }
+    
+    .sup-title {
+        width: 65%;
+    }
+    
+    .sup-date {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .board-container table th, .board-container table tr, .board-container table td {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .num {
+        width: 5%;
+    }
+    
+    .date, .view,{
+        width: 10%;
+    }
+    
+    .subject, .Area, .shop {
+        width: 15%;
+    }
+    .address {
+        width: 50%;
+    }
+    
+    .title {
+        width: 60%;        
+    }
+    
+    .phone {
+        width: 20%;
+    }
+    
+    .sup-title {
+        width: 65%;
+    }
+    
+    .sup-date {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 999px) {
+    .container {
+        width: 95%;
+        margin: auto;        
+    }
+
+    .board-container table th, .board-container table tr, .board-container table td {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .num, .date, .view, .sup-date, .area, .phone {
+        display: none;
+    }
+    
+    .date, .view {
+        width: 10%;
+    }
+    
+    .shop {
+        width: 30%;
+    }
+
+    .address {
+        width: 70%;
+    }
+
+    .subject {
+        width: 25%;        
+    }
+    
+    .title {
+        width: 75%;
+    }
+    
+    .sup-title {
+        width: 75%;
+    }
+}

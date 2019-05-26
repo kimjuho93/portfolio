@@ -1,0 +1,119 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1150px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .seminar div {
+        width: 50%;
+    }
+    
+    .seminar img {
+        width: 95%;
+        height: 100%;
+    }
+    
+    .seminar div:nth-child(2) *  {
+        margin-left: 5%;
+    }   
+}
+
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+    .container {
+        width: 95%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .seminar div {
+        width: 50%;
+    }
+    
+    .seminar img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .seminar div:nth-child(2) *  {
+        margin-left: 5%;
+    }   
+}
+
+
+@media screen and (min-width: 0) and (max-width: 799px) {
+    .container {
+        width: 95%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .seminar div {
+        width: 100%;
+    }
+    
+    .seminar img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .seminar div:nth-child(2) *  {
+        margin-left: 5%;
+    }   
+}
+
+.seminar {
+    width: 100%;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid rgb(230, 230, 230);
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.label {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    background: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.seminar h2 {
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.seminar p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ongoing:hover {
+    border: 1px solid #0E347E;
+    box-sizing: border-box;
+    color: #0E347E;
+}
+
+.end h2, .end .label {
+    color: rgb(200, 200, 200);
+}
+
+.end:hover {
+    border: 1px solid #0E347E;
+    box-sizing: border-box;
+}
+
+.ongoing .label, .end .label {
+    color: rgb(200, 200, 200);
+    font-size: 16px;
+}    

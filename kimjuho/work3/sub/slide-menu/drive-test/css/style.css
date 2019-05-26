@@ -1,0 +1,12 @@
+.container {
+    background: url('../images/test.jpg') no-repeat center center;
+    background-size: cover;   
+}
+
+.container h1 {
+    padding-top: 200px;
+}
+
+.sign-up-wrap {
+    margin-top: 50px;
+}

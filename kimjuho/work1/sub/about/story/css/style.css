@@ -1,0 +1,1804 @@
+body {
+    background: black;
+    color: white;
+}
+
+.bg-black {
+    background: rgba(0, 0, 0, .7);
+}
+
+.m-menu-btn span,
+.m-menu-btn::before,
+.m-menu-btn::after {
+    background: white;
+}
+
+.black {
+    color: black;
+}
+
+@media screen and (min-width: 1700px) {
+    .menu ul a {
+        color: white;
+    }
+
+    .menu ul li:hover a {
+        color: black;
+    }
+    
+    .menu ul li:hover {
+        background: #FFE600;
+    }   
+
+    .menu ul ul a {
+        color: black;
+    }
+
+    .intro {
+        width: 100%;
+        height: 750px;
+        margin-top: 120px;
+    }
+    
+    .intro h2 {
+        text-transform: uppercase;
+        font-weight: 900;
+        padding-top: 80px;
+    }
+    
+    .intro h1{
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 900;
+    }
+    
+    .intro h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;    
+    }
+    
+    .intro h1 span {
+        font-size: 30px;
+    }
+    
+    .intro p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .intro p span {
+        font-size: 18px;
+        color: #FFE600;
+    }
+    
+    .container {
+        width: 1150px;
+        margin: auto;
+    }
+    
+    .section {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+        text-align: right;   
+    }
+    
+    .section div {
+        width: 48%;
+    }
+    
+    .section img {
+        width: 100%;
+    }
+
+    .section h2 {
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #986835;
+    }
+    
+    .bean-right, .bean-left{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .bean-right::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .bean-left::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 90%;
+    }
+    
+    .section h2 span {
+        color: white;
+        font-size: 28px;
+    }
+    
+    .section p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .container-wide {
+        width: 1700px;
+        margin: auto;    
+    }
+    
+    .section-wide {
+        width: 100%;
+        height: 55vh;
+        background-size: 100%;
+        text-align: center;
+    }
+    
+    .section-wide h1 {
+        padding-top: 80px;
+        font-size: 50px;
+    }
+    
+    .section-wide h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section-wide p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .section-wide button {
+        width: 300px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        background: #FFE600;
+        color: black;
+        margin: auto;
+        margin-top: 50px;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .section-wide button span {
+        color: #0E347E;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 800px;
+    }
+
+    .swiper-slide {
+        width: 100%;
+    }
+
+    .swiper-text {
+        width: 1200px;
+        height: 100%;
+        margin: auto;
+        position: relative;
+    }
+
+    .swiper-text h6 {
+       font-size: 18px;
+       font-weight: 400;
+       margin-top: 50px;
+    }
+
+    .swiper-text span {
+        font-weight: 600;
+    }
+
+    .swiper-text h2 {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 100px;
+    }
+
+    .swiper-text h2 span {
+        font-size: 40px;
+    }    
+
+    .swiper-text p {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .coordinates {
+        font-weight: 600;
+        position: absolute;
+        transform: rotate(90deg);
+        bottom: 200px;
+        right: -80px;
+    }
+
+    .roast-title {
+        font-size: 16px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: #986835;
+    }
+
+    .roast-title span {
+        font-size: 20px;
+        color: white;
+    }
+    
+    .section-roast {
+        width: 100%;
+        box-shadow: 0 1px rgb(100, 100, 100);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .section-roast:last-of-type {
+        box-shadow: none;
+    }
+    
+    .color {
+        font-size: 14px;
+        font-weight: 700;
+        display: block;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .roast-inner {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-self: stretch;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .standard {
+        width: 33.33%;
+    }
+    
+    .standard-wide {
+        width: 66.66%;
+    }
+    
+    .roast-inner h3 {
+        font-size: 30px;
+        line-height: 44px;
+        color: burlywood;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner h4 {
+        font-size: 24px;
+        line-height: 50px;
+        color: #986835;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner p {
+        font-size: 18px;
+        font-weight: 600;
+        display: block;
+        float: left;
+    }
+    
+    .roast-inner img {
+        float: right;
+        margin-right: 20%;
+    }    
+
+    #paiks-roasting-point h3, #paiks-roasting-point h4  {
+        color: #FFE600;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1699px) {    
+    .menu ul a {
+        color: white;
+    }
+
+    .menu ul li:hover a {
+        color: black;
+    }
+    
+    .menu ul li:hover {
+        background: #FFE600;
+    }   
+
+    .menu ul ul a {
+        color: black;
+    }
+    
+    .intro {
+        width: 100%;
+        height: 750px;
+        margin-top: 120px;
+    }
+    
+    .intro h2 {
+        text-transform: uppercase;
+        font-weight: 900;
+        padding-top: 80px;
+    }
+    
+    .intro h1{
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 900;
+    }
+    
+    .intro h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;    
+    }
+    
+    .intro h1 span {
+        font-size: 30px;
+    }
+    
+    .intro p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .intro p span {
+        font-size: 18px;
+        color: #FFE600;
+    }
+    
+    .container {
+        width: 1150px;
+        margin: auto;
+    }
+    
+    .section {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+        text-align: right;   
+    }
+    
+    .section div {
+        width: 48%;
+    }
+    
+    .section img {
+        width: 100%;
+    }
+    
+    .section h2 {
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #986835;
+    }
+    
+    .bean-right, .bean-left{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .bean-right::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .bean-left::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 90%;
+    }
+    
+    .section p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .container-wide {
+        width: 100%;
+        margin: auto;    
+    }
+    
+    .section-wide {
+        width: 100%;
+        height: 55vh;
+        background-size: 100%;
+        text-align: center;
+    }
+    
+    .section-wide h1 {
+        padding-top: 80px;
+        font-size: 50px;
+    }
+    
+    .section-wide h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section-wide p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .section-wide button {
+        width: 300px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        background: #FFE600;
+        color: black;
+        margin: auto;
+        margin-top: 50px;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .section-wide button span {
+        color: #0E347E;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 800px;
+    }
+
+    .swiper-slide {
+        width: 100%;
+    }
+
+    .swiper-text {
+        width: 1200px;
+        height: 100%;
+        margin: auto;
+        position: relative;
+    }
+
+    .swiper-text h6 {
+       font-size: 18px;
+       font-weight: 400;
+       margin-top: 50px;
+    }
+
+    .swiper-text span {
+        font-weight: 600;
+    }
+
+    .swiper-text h2 {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 100px;
+    }
+
+    .swiper-text h2 span {
+        font-size: 40px;
+    }    
+
+    .swiper-text p {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .coordinates {
+        font-weight: 600;
+        position: absolute;
+        transform: rotate(90deg);
+        bottom: 200px;
+        right: -50px;
+    }
+
+    .roast-title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .section-roast {
+        width: 100%;
+        box-shadow: 0 1px rgb(100, 100, 100);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .section-roast:last-of-type {
+        box-shadow: none;
+    }
+    
+    .color {
+        font-size: 14px;
+        font-weight: 700;
+        display: block;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .roast-inner {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-self: stretch;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .standard {
+        width: 33.33%;
+    }
+    
+    .standard-wide {
+        width: 66.66%;
+    }
+    
+    .roast-inner h3 {
+        font-size: 30px;
+        line-height: 44px;
+        color: burlywood;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner h4 {
+        font-size: 24px;
+        line-height: 50px;
+        color: #986835;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner p {
+        font-size: 18px;
+        font-weight: 600;
+        display: block;
+        float: left;
+    }
+    
+    .roast-inner img {
+        float: right;
+        margin-right: 20%;
+    }    
+
+    #paiks-roasting-point h3, #paiks-roasting-point h4  {
+        color: #FFE600;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+    .intro {
+        width: 100%;
+        height: 750px;
+        margin-top: 70px;
+    }
+    
+    .intro h2 {
+        text-transform: uppercase;
+        font-weight: 900;
+        padding-top: 80px;
+    }
+    
+    .intro h1{
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 900;
+    }
+    
+    .intro h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;    
+    }
+    
+    .intro h1 span {
+        font-size: 30px;
+    }
+    
+    .intro p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .intro p span {
+        font-size: 18px;
+        color: #FFE600;
+    }
+    
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .section {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+        text-align: right;   
+    }
+
+    .section div {
+        width: 48%;
+    }
+
+    .section img {
+        width: 100%;
+    }   
+    
+    .section h2 {
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #986835;
+    }
+    
+    .bean-right, .bean-left{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .bean-right::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .bean-left::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 90%;
+    }
+    
+    .section p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .container-wide {
+        width: 100%;
+        margin: auto;    
+    }
+    
+    .section-wide {
+        width: 100%;
+        height: 55vh;
+        background-size: 100%;
+        text-align: center;
+    }
+    
+    .section-wide h1 {
+        padding-top: 80px;
+        font-size: 50px;
+    }
+    
+    .section-wide h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section-wide p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .section-wide button {
+        width: 300px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        background: #FFE600;
+        color: black;
+        margin: auto;
+        margin-top: 50px;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .section-wide button span {
+        color: #0E347E;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 800px;
+    }
+
+    .swiper-slide {
+        width: 100%;
+    }
+
+    .swiper-text {
+        width: calc(100% - 20px);
+        height: 100%;
+        margin: auto;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .swiper-text h6 {
+       font-size: 18px;
+       font-weight: 400;
+       margin-top: 50px;
+    }
+
+    .swiper-text span {
+        font-weight: 600;
+    }
+
+    .swiper-text h2 {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 100px;
+    }
+
+    .swiper-text h2 span {
+        font-size: 40px;
+    }    
+
+    .swiper-text p {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .coordinates {
+        font-weight: 600;
+        position: absolute;
+        transform: rotate(90deg);
+        bottom: 200px;
+        right: -10px;
+    }
+
+    .roast-title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .section-roast {
+        width: 100%;
+        box-shadow: 0 1px rgb(100, 100, 100);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .section-roast:last-of-type {
+        box-shadow: none;
+    }
+    
+    .color {
+        font-size: 14px;
+        font-weight: 700;
+        display: block;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .roast-inner {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-self: stretch;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .standard {
+        width: 33.33%;
+    }
+    
+    .standard-wide {
+        width: 66.66%;
+    }
+    
+    .roast-inner h3 {
+        font-size: 30px;
+        line-height: 44px;
+        color: burlywood;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner h4 {
+        font-size: 24px;
+        line-height: 50px;
+        color: #986835;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner p {
+        font-size: 18px;
+        display: block;
+    }
+
+    #paiks-roasting-point h3, #paiks-roasting-point h4  {
+        color: #FFE600;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px) {
+    .intro {
+        width: 100%;
+        height: 750px;
+        margin-top: 70px;
+    }
+    
+    .intro h2 {
+        text-transform: uppercase;
+        font-weight: 900;
+        padding-top: 80px;
+    }
+    
+    .intro h1{
+        font-size: 46px;
+        line-height: 46px;
+        font-weight: 900;
+    }
+    
+    .intro h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;    
+    }
+    
+    .intro h1 span {
+        font-size: 30px;
+    }
+    
+    .intro p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .intro p span {
+        font-size: 18px;
+        color: #FFE600;
+    }
+    
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .section {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    .section div {
+        width: 100%;
+    }
+    
+    .section h2 {
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #986835;
+    }
+    
+    .bean-right, .bean-left{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .bean-right::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .bean-left::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .container-wide {
+        width: 100%;
+        margin: auto;    
+    }
+    
+    .section-wide {
+        width: 100%;
+        height: 55vh;
+        background-size: 100%;
+        text-align: center;
+    }
+    
+    .section-wide h1 {
+        padding-top: 50px;
+        font-size: 36px;
+    }
+    
+    .section-wide h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section-wide p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .section-wide button {
+        width: 300px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        background: #FFE600;
+        color: black;
+        margin: auto;
+        margin-top: 50px;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .section-wide button span {
+        color: #0E347E;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 700px;
+    }
+
+    .swiper-slide {
+        width: 100%;
+    }
+
+    .swiper-text {
+        width: calc(100% - 20px);
+        height: 100%;
+        margin: auto;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .swiper-text h6 {
+       font-size: 18px;
+       font-weight: 400;
+       padding-top: 50px;
+    }
+
+    .swiper-text span {
+        font-weight: 600;
+    }
+
+    .swiper-text h2 {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 100px;
+    }
+
+    .swiper-text h2 span {
+        font-size: 40px;
+    }    
+
+    .swiper-text p {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .coordinates {
+        font-weight: 600;
+        position: absolute;
+        transform: rotate(90deg);
+        bottom: 120px;
+        right: -70px;
+    }
+    
+    .roast-title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .section-roast {
+        width: 100%;
+        box-shadow: 0 1px rgb(100, 100, 100);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .section-roast:last-of-type {
+        box-shadow: none;
+    }
+    
+    .color {
+        font-size: 14px;
+        font-weight: 700;
+        display: block;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .roast-inner {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-self: stretch;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .standard {
+        width: 33.33%;
+    }
+    
+    .standard-wide {
+        width: 66.66%;
+    }
+    
+    .roast-inner h3 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-right: 50px;
+        color: burlywood;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner h4 {
+        font-size: 24px;
+        line-height: 50px;
+        color: #986835;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner p {
+        font-size: 16px;
+        font-weight: 500;
+        padding-bottom: 10px;
+        display: block;
+        float: left;
+    }
+    
+    .roast-inner img {
+        float: right;
+        margin-right: 20%;
+    }    
+
+    #paiks-roasting-point h3, #paiks-roasting-point h4  {
+        color: #FFE600;
+    }
+
+    .bg-green{
+        background: #00B700;
+    }
+
+    .bg-yellow {
+        background: #FFE600;
+    }
+
+    .bg-blue {
+        background: #0F46AE;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    .intro {
+        width: 100%;
+        height: 550px;
+        margin-top: 70px;
+    }
+    
+    .intro h2 {
+        text-transform: uppercase;
+        font-weight: 900;
+        padding-top: 80px;
+    }
+    
+    .intro h1{
+        font-size: 38px;
+        line-height: 38px;
+        font-weight: 900;
+    }
+    
+    .intro h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;    
+    }
+    
+    .intro h1 span {
+        font-size: 28px;
+    }
+    
+    .intro p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .intro p span {
+        font-size: 16px;
+        color: #FFE600;
+    }
+    
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .section {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    .section div {
+        width: 100%;
+    }
+    
+    .section h2 {
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #986835;
+    }
+    
+    .bean-right, .bean-left{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .bean-right::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .bean-left::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .container-wide {
+        width: 100%;
+        margin: auto;    
+    }
+    
+    .section-wide {
+        width: 100%;
+        height: 55vh;
+        background-size: 100%;
+        text-align: center;
+    }
+    
+    .section-wide h1 {
+        padding-top: 50px;
+        font-size: 36px;
+    }
+    
+    .section-wide h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section-wide p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .section-wide button {
+        width: 300px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        background: #FFE600;
+        color: black;
+        margin: auto;
+        margin-top: 50px;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .section-wide button span {
+        color: #0E347E;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 700px;
+    }
+
+    .swiper-slide {
+        width: 100%;
+    }
+
+    .swiper-text {
+        width: calc(100% - 20px);
+        height: 100%;
+        margin: auto;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .swiper-text h6 {
+       font-size: 18px;
+       font-weight: 400;
+       padding-top: 50px;
+    }
+
+    .swiper-text span {
+        font-weight: 600;
+    }
+
+    .swiper-text h2 {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 100px;
+    }
+
+    .swiper-text h2 span {
+        font-size: 40px;
+    }    
+
+    .swiper-text p {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .coordinates {
+        font-weight: 600;
+        position: absolute;
+        transform: rotate(90deg);
+        bottom: 120px;
+        right: -80px;
+    }
+
+    .roast-title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .section-roast {
+        width: 100%;
+        box-shadow: 0 1px rgb(100, 100, 100);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .section-roast:last-of-type {
+        box-shadow: none;
+    }
+    
+    .roast-inner {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-self: stretch;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .standard {
+        width: 100%;
+    }
+    
+    .standard-wide {
+        width: 100%;
+    }
+    
+    .roast-inner h3 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-right: 50px;
+        color: burlywood;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner h4 {
+        font-size: 24px;
+        line-height: 50px;
+        color: #986835;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner p {
+        width: 80%;
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    
+    .roast-inner img {
+        display: block;
+        margin: auto;
+    }    
+
+    .color {
+        font-size: 14px;
+        font-weight: 700;
+        display: block;
+        width: 40%;
+        text-align: center;
+    }
+
+    .roast-point {
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 900;        
+    }
+
+    #paiks-roasting-point h3, #paiks-roasting-point h4  {
+        color: #FFE600;
+    }
+
+    .bg-green{
+        background: #00B700;
+    }
+
+    .bg-yellow {
+        background: #FFE600;
+    }
+
+    .bg-blue {
+        background: #0F46AE;
+    }    
+}
+
+@media screen and (min-width: 0) and (max-width: 599px) {
+    .intro {
+        width: 100%;
+        min-height: 400px;
+        max-height: 700px;
+        margin-top: 70px;
+    }
+    
+    .intro h2 {
+        text-transform: uppercase;
+        font-weight: 900;
+        padding-top: 80px;
+    }
+    
+    .intro h1{
+        font-size: 31px;
+        line-height: 38px;
+        font-weight: 900;
+    }
+    
+    .intro h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;    
+    }
+    
+    .intro h1 span {
+        font-size: 24px;
+    }
+    
+    .intro p {
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    
+    .intro p span {
+        font-size: 16px;
+        color: #FFE600;
+    }
+    
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .section {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    .section div {
+        width: 100%;
+    }
+    
+    .section h2 {
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #986835;
+    }
+    
+    .bean-right, .bean-left{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .bean-right::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .bean-left::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section p {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .section img {
+        width: 100%;
+    }
+    
+    .container-wide {
+        width: 100%;
+        margin: auto;    
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .section-wide {
+        width: 100%;
+        min-height: 50vh;
+        max-height: 80vh;
+        background-size: 100%;
+        text-align: center;
+    }
+    
+    .section-wide h1 {
+        padding-top: 50px;
+        font-size: 32px;
+    }
+    
+    .section-wide h1::after {
+        content: '';
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section-wide p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .section-wide button {
+        width: 90%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        background: #FFE600;
+        color: black;
+        margin: auto;
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .section-wide button span {
+        color: #0E347E;
+    }
+    
+    .swiper-container {
+        width: 100%;
+        height: 700px;
+    }
+
+    .swiper-slide {
+        width: 100%;
+    }
+
+    .swiper-text {
+        width: calc(100% - 20px);
+        height: 100%;
+        margin: auto;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .swiper-text h6 {
+       font-size: 18px;
+       font-weight: 400;
+       padding-top: 50px;
+    }
+
+    .swiper-text span {
+        font-weight: 600;
+    }
+
+    .swiper-text h2 {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 100px;
+    }
+
+    .swiper-text h2 span {
+        font-size: 40px;
+    }    
+
+    .swiper-text p {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .coordinates {
+        letter-spacing: -1px;
+        font-weight: 600;
+        position: absolute;
+        transform: rotate(90deg);
+        bottom: 100px;
+        right: -80px;
+    }
+
+    .roast-title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .section-roast {
+        width: 100%;
+        box-shadow: 0 1px rgb(100, 100, 100);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .section-roast:last-of-type {
+        box-shadow: none;
+    }
+    
+    .color {
+        font-size: 14px;
+        font-weight: 700;
+        display: block;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .roast-inner {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-self: stretch;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .standard {
+        width: 100%;
+    }
+    
+    .standard-wide {
+        width: 100%;
+    }
+    
+    .roast-inner h3 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-right: 50px;
+        color: burlywood;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner h4 {
+        font-size: 24px;
+        line-height: 50px;
+        color: #986835;
+        text-transform: capitalize;
+    }
+    
+    .roast-inner p {
+        width: 80%;
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    
+    .roast-inner img {
+        margin-right: 20%;
+    }    
+
+    #paiks-roasting-point h3, #paiks-roasting-point h4  {
+        color: #FFE600;
+    }
+    .bg-green{
+        background: #00B700;
+    }
+
+    .bg-yellow {
+        background: #FFE600;
+    }
+
+    .bg-blue {
+        background: #0F46AE;
+    }
+}

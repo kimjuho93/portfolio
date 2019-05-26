@@ -1,0 +1,171 @@
+@media screen and (min-width: 600px) {
+    .container {
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .container h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 5px black;
+    }
+    
+    .sign-up-wrap {
+        width: 500px;
+        margin: auto;
+    }
+    
+    .tab {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .tab label {
+        color: white;
+        text-shadow: 1px 1px 5px black;
+    }
+    
+    .tab input {
+        width: 100%;
+        padding-left: 16px;
+        font-size: 16px;
+        line-height: 2;
+        border: 1px solid rgb(230, 230, 230);
+        border-radius: 16px;
+        outline: none;
+        box-sizing: border-box;
+        background: rgb(250, 250, 250);
+    }  
+    
+    .tab input:focus {
+        border: 1px solid rgb(107, 141, 255);
+    }
+    
+    .submit {
+        width: 500px;
+        margin: auto;
+        position: relative;
+        color: white;
+        text-shadow: 1px 1px 5px black;
+    }
+    
+    .checkbox {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .btn-box {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .btn-box input {
+        width: 100%;
+        font-size: 16px;
+        line-height: 2;
+        border: 1px solid rgb(230, 230, 230);
+        border-radius: 20px;
+        box-sizing: border-box;
+        background: rgb(250, 250, 250);
+    }
+    
+    .etc {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 50px;
+        color: white;
+    }
+    
+    .etc a {
+        color: rgb(45, 101, 255);
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 599px) {
+    .container {
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .container h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 5px black;
+    }
+    
+    .sign-up-wrap {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .tab {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .tab label {
+        color: white;
+        text-shadow: 1px 1px 5px black;
+    }
+    
+    .tab input {
+        width: 100%;
+        padding-left: 16px;
+        font-size: 16px;
+        line-height: 2;
+        border: 1px solid rgb(230, 230, 230);
+        border-radius: 16px;
+        outline: none;
+        box-sizing: border-box;
+        background: rgb(250, 250, 250);
+    }  
+    
+    .tab input:focus {
+        border: 1px solid rgb(107, 141, 255);
+    }
+    
+    .submit {
+        width: 95%;
+        margin: auto;
+        position: relative;
+        color: white;
+        text-shadow: 1px 1px 5px black;
+    }
+    
+    .checkbox {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .btn-box {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .btn-box input {
+        width: 100%;
+        font-size: 16px;
+        line-height: 2;
+        border: 1px solid rgb(230, 230, 230);
+        border-radius: 20px;
+        box-sizing: border-box;
+        background: rgb(250, 250, 250);
+    }
+    
+    .etc {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+        padding-bottom: 50px;
+    }
+    
+    .etc a {
+        color: rgb(45, 101, 255);
+    }
+}

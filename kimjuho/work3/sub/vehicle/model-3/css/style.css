@@ -1,0 +1,34 @@
+.intro {
+    background: url('../images/intro.jpg') no-repeat 30% 50%;
+    background-size: cover;
+}
+
+.performance .inner-section {
+    background: url('../images/performance.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.utility .inner-section {
+    background: url('../images/utility.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.specification .inner-section {
+    background: url('../images/specification.jpeg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.pilot .inner-section {
+    background: url('../images/pilot.jpg') no-repeat 10% 50%;
+    background-size: cover;
+}
+
+.charging .inner-section {
+    background: url('../images/tesla-supercharger.png') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.spec {
+    background: url('../images/spec.jpg') no-repeat 70% 80%;
+    background-size: cover;
+}
