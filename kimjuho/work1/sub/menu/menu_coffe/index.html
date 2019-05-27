@@ -383,4 +383,12 @@
         </div>        
     </body>
     <script src="../../../common/js/m-menu.js"></script>
+    <script>
+        $(function(){
+            $('.item:nth-child(n)').click(function(){
+                $('.item:nth-child(n)').not(this).find('.explain').fadeOut();
+                $(this).find('.explain').fadeToggle();
+            });
+        });
+    </script>
 </html>
