@@ -645,7 +645,7 @@
     }
     
     .banner .text-box {
-        width: 100%;
+        width: 90;
         height: 90%;
         position: absolute;
         top: 10%;
@@ -657,10 +657,6 @@
         font-size: 50px;
         font-weight: 700;
         line-height: 50px;
-    }
-
-    .banner .text-box p {
-        font-size: 14px;
     }
 
     .container {
@@ -740,7 +736,7 @@
     .more {
         display: block;
         position: absolute;
-        bottom: -30px;
+        bottom: 10px;
         width: 50px;
         height: 50px;
         border-radius: 100%;
@@ -787,7 +783,7 @@
     }
     
     .blue-box {
-        width: 48%;
+        width: 45%;
         height: 280px;
         border: 2px solid #0E347E;
         margin-top: 20px;
@@ -947,7 +943,7 @@
         line-height: 56px;
     }
 
-    .banner .text-box p {
+    .banner .text-box .annexation {
         display: none;
     }
 
@@ -959,7 +955,7 @@
         margin-top: 10px;
     }
 
-    .section-m .text-box p {
+    .section-m .text-box .annexation {
         display: none;
     }
 
@@ -979,7 +975,8 @@
     .more {
         display: block;
         position: absolute;
-        bottom: -30px;
+        right: 30px;
+        bottom: 15px;
         width: 50px;
         height: 50px;
         border-radius: 100%;
@@ -988,6 +985,7 @@
     }
 
     .more p {
+        display: block;
         font-size: 36px;
         margin-top: -4px;
     }
