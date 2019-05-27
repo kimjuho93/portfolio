@@ -77,6 +77,10 @@
         width: 150px;
         box-shadow: 0 1px rgb(230, 230, 230);
     }
+
+    .menu ul ul li:last-of-type {
+        box-shadow: none;
+    }
     
     .menu ul ul a {
         line-height: 120%;

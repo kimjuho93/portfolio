@@ -32,10 +32,12 @@
         height: 50px;
         border-radius: 100%;
         background: white;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 40px;
         text-align: center;
+    }
+
+    .more p {
+        font-size: 36px;
+        margin-top: -4px;
     }
 
     .banner {
@@ -337,10 +339,12 @@
         height: 50px;
         border-radius: 100%;
         background: white;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 40px;
         text-align: center;
+    }
+
+    .more p {
+        font-size: 36px;
+        margin-top: -4px;
     }
 
     .banner {
@@ -736,15 +740,17 @@
     .more {
         display: block;
         position: absolute;
-        bottom: 10px;
+        bottom: -30px;
         width: 50px;
         height: 50px;
         border-radius: 100%;
         background: white;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 40px;
         text-align: center;
+    }
+
+    .more p {
+        font-size: 36px;
+        margin-top: -4px;
     }
         
     .section-5 {
@@ -973,16 +979,17 @@
     .more {
         display: block;
         position: absolute;
-        right: 30px;
-        bottom: 10px;
+        bottom: -30px;
         width: 50px;
         height: 50px;
         border-radius: 100%;
         background: white;
-        font-size: 30px;
-        line-height: 40px;
-        font-weight: 700;
         text-align: center;
+    }
+
+    .more p {
+        font-size: 36px;
+        margin-top: -4px;
     }
 
     .container {
@@ -1167,6 +1174,13 @@
     }
 }
 
+.swiper-pagination-bullet-active {
+    width: 20px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #FFE600;
+}
+
 .section-1 .text-box h1::after {
     border-color: #6B4D30;
 }
@@ -1183,8 +1197,6 @@
     border-color: #B47C55;
 }
 
-
-
 .more:hover {
     -webkit-animation-name: rotation;
     -webkit-animation-duration: 1s;
@@ -1195,9 +1207,14 @@
 }
 
 @keyframes rotation {
+    50% {
+        transform: rotate(360deg);
+        color: transparent;   
+    }
+
     100% {
-        transform: rotate(720deg);
+        transform: rotate(360deg);
+        color: transparent;   
         background: url('../images/more.png') no-repeat center center;
-        color: transparent;
     }
 }
