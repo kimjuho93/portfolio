@@ -876,7 +876,7 @@
     }
     
     .spec-tab-box {
-        width: 400px;
+        width: 80%;
         height: 30px;
         position: absolute;
         top: 100px; right: 0;
@@ -910,7 +910,7 @@
     }
     
     .trim {
-        width: 400px;
+        width: 80%;
         height: 440px;
         position: absolute;
         top: 160px; right: 0;
@@ -1008,7 +1008,7 @@
     
     .etc-btn {
         display: block;
-        width: 80px;
+        width: 60px;
         height: 40px;
         border: none;
         margin-top: 10px;
@@ -1016,6 +1016,7 @@
         background: rgb(170, 170, 170);
         text-align: center;
         line-height: 40px;
+        font-size: 14px;
         font-weight: bold;
     }
     
