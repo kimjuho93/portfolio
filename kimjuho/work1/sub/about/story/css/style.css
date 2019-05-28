@@ -1702,6 +1702,7 @@ body {
         font-size: 16px;
         font-weight: 600;
         margin-top: 30px;
+        margin-right: 50px;
     }
 
     .coordinates {
@@ -1710,7 +1711,7 @@ body {
         position: absolute;
         transform: rotate(90deg);
         bottom: 100px;
-        right: -80px;
+        right: -130px;
     }
 
     .roast-title {
