@@ -1090,13 +1090,13 @@ body {
     }
 
     .swiper-text h2 {
-        font-size: 40px;
+        font-size: 60px;
         font-weight: 300;
         margin-top: 100px;
     }
 
     .swiper-text h2 span {
-        font-size: 40px;
+        font-size: 60px;
     }    
 
     .swiper-text p {
@@ -1381,13 +1381,13 @@ body {
     }
 
     .swiper-text h2 {
-        font-size: 40px;
+        font-size: 60px;
         font-weight: 300;
         margin-top: 100px;
     }
 
     .swiper-text h2 span {
-        font-size: 40px;
+        font-size: 60px;
     }    
 
     .swiper-text p {
@@ -1666,16 +1666,13 @@ body {
         height: 700px;
     }
 
-    .swiper-slide {
-        width: 100%;
-    }
-
     .swiper-text {
-        width: calc(100% - 20px);
+        width: calc(100% - 70px);
         height: 100%;
         margin: auto;
         position: relative;
         padding-left: 20px;
+        padding-right: 50px;
     }
 
     .swiper-text h6 {
@@ -1689,20 +1686,19 @@ body {
     }
 
     .swiper-text h2 {
-        font-size: 40px;
+        font-size: 60px;
         font-weight: 300;
         margin-top: 100px;
     }
 
     .swiper-text h2 span {
-        font-size: 40px;
+        font-size: 60px;
     }    
 
     .swiper-text p {
         font-size: 16px;
         font-weight: 600;
         margin-top: 30px;
-        margin-right: 50px;
     }
 
     .coordinates {
@@ -1711,7 +1707,7 @@ body {
         position: absolute;
         transform: rotate(90deg);
         bottom: 100px;
-        right: -130px;
+        right: -80px;
     }
 
     .roast-title {
