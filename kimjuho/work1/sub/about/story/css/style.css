@@ -1775,6 +1775,7 @@ body {
     #paiks-roasting-point h3, #paiks-roasting-point h4  {
         color: #FFE600;
     }
+    
     .bg-green{
         background: #00B700;
     }
@@ -1786,4 +1787,11 @@ body {
     .bg-blue {
         background: #0F46AE;
     }
+}
+
+.swiper-pagination-bullet-active {
+    width: 20px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: black;
 }
