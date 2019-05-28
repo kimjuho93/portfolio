@@ -235,12 +235,10 @@ body {
 
     .swiper-text p {
         font-size: 16px;
-        font-weight: 600;
         margin-top: 30px;
     }
 
     .coordinates {
-        font-weight: 600;
         position: absolute;
         transform: rotate(90deg);
         bottom: 200px;
@@ -544,12 +542,10 @@ body {
 
     .swiper-text p {
         font-size: 16px;
-        font-weight: 600;
         margin-top: 30px;
     }
 
     .coordinates {
-        font-weight: 600;
         position: absolute;
         transform: rotate(90deg);
         bottom: 200px;
@@ -831,12 +827,10 @@ body {
 
     .swiper-text p {
         font-size: 16px;
-        font-weight: 600;
         margin-top: 30px;
     }
 
     .coordinates {
-        font-weight: 600;
         position: absolute;
         transform: rotate(90deg);
         bottom: 200px;
@@ -1101,12 +1095,10 @@ body {
 
     .swiper-text p {
         font-size: 16px;
-        font-weight: 600;
         margin-top: 30px;
     }
 
     .coordinates {
-        font-weight: 600;
         position: absolute;
         transform: rotate(90deg);
         bottom: 120px;
@@ -1392,12 +1384,10 @@ body {
 
     .swiper-text p {
         font-size: 16px;
-        font-weight: 600;
         margin-top: 30px;
     }
 
     .coordinates {
-        font-weight: 600;
         position: absolute;
         transform: rotate(90deg);
         bottom: 120px;
@@ -1688,7 +1678,7 @@ body {
     .swiper-text h2 {
         font-size: 60px;
         font-weight: 300;
-        margin-top: 100px;
+        margin-top: 80px;
     }
 
     .swiper-text h2 span {
@@ -1697,17 +1687,15 @@ body {
 
     .swiper-text p {
         font-size: 16px;
-        font-weight: 600;
         margin-top: 30px;
     }
 
     .coordinates {
         letter-spacing: -1px;
-        font-weight: 600;
         position: absolute;
         transform: rotate(90deg);
         bottom: 100px;
-        right: -80px;
+        right: -60px;
     }
 
     .roast-title {
