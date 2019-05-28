@@ -282,23 +282,6 @@
             </footer>        
         </div>        
     </body>
-    <script>
-        $(function(){
-            $('.item:nth-child(n)').click(function(){
-                $('.item:nth-child(n)').not(this).find('.explain').fadeOut();
-                $(this).find('.explain').fadeToggle();
-            });
-        });
-
-        var swiper = new Swiper('.recommend', {
-            slidesPerView: 3,
-            spaceBetween: 10,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
-    </script>
     <script src="../../../common/js/m-menu.js"></script>
     <script>
         $(function(){
