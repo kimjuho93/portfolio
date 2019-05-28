@@ -12,4 +12,8 @@ $(function(){
         $(this).toggleClass('down-drop-active');
         $('.down-drop:nth-child(n)').not(this).removeClass('down-drop-active');
     });
+
+    $('.family-btn').click(function(){
+        $('.family-site').slideToggle(200);
+    });
 });
