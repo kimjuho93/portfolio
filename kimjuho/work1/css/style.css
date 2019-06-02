@@ -36,10 +36,8 @@
     }
 
     .more p {
-        position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%, -50%);
         font-size: 36px;
+        margin-top: -4px;
     }
 
     .banner {
@@ -345,10 +343,8 @@
     }
 
     .more p {
-        position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%, -50%);
         font-size: 36px;
+        margin-top: -4px;
     }
 
     .banner {
@@ -749,10 +745,8 @@
     }
 
     .more p {
-        position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%, -50%);
         font-size: 36px;
+        margin-top: -4px;
     }
         
     .section-5 {
@@ -991,10 +985,9 @@
     }
 
     .more p {
-        position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%, -50%);
+        display: block;
         font-size: 36px;
+        margin-top: -4px;
     }
 
     .container {
