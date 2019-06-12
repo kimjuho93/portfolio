@@ -40,7 +40,6 @@
     }
     
     .menu ul {
-        list-style: none;
         position: relative;
         float: left;
     }
@@ -241,17 +240,19 @@
 
     .m-menu-btn.menu-close::before {
         top: 10px;
+        -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
         transform: rotate(45deg);
     }
 
     .m-menu-btn.menu-close::after {
         bottom: 10px;
+        -webkit-transform: rotate(-45deg);
         -moz-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
         transform: rotate(-45deg);
     }
 
