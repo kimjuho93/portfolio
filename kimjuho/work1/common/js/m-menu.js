@@ -2,7 +2,7 @@ $(function(){
     $('.m-menu-btn').click(function(){
         $(this).toggleClass('menu-close');
         $('.slide-menu').animate({ width: 'toggle' }, 200);
-        $('.down-drop').removeClass('drop-down-active');
+        $('.down-drop').removeClass('down-drop-active');
         $('.down-drop').next('ul').slideUp(200);
     });
     
