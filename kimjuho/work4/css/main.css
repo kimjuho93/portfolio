@@ -1,0 +1,97 @@
+body{font-style: "Calibri"; margin: 0; padding: 0; background-image: url(../img/bg1.jpg); background-position: top; background-repeat: repeat-y; background-color: black;}
+
+@media screen and (min-width: 1px) {
+  #wrap{width: 1550px;  margin: 0 auto; padding-top: 0;}
+  #header{width: 100%; height: 720px; float: left; background-image: url(../img/main_img/header/10.png); background-repeat: no-repeat; position: relative;}
+    #menu{width: 100%; height: 75px; background-color: black; float: left;}
+    #menu p {font-size: 40px; font-weight: bold; margin-top: 5px; margin-left: 150px; float: left;}
+    #menu ul {float:left; margin-left: 100px; margin-top: 20px;}
+    #menu li {float:left; margin-left: 100px; font-weight: bold;}
+    #header img{width: 240px; margin: 220px 0 0 655px;}
+
+  #welcome{width: 100%; height: 480px; float: left;  background-image: url(../img/main_img/welcome/welcome.jpg); background-repeat: no-repeat; position: relative;}
+  #welcome h1 {text-align: center; margin-top: 75px; color:white;text-shadow:4px 4px 4px #000;}
+  #welcome h3 {text-align: center; color:white; text-shadow:4px 4px 4px #000;}
+  #welcome p {text-align: center; color:white;text-shadow:4px 4px 4px #000; margin-bottom: 60px;}
+    #welcome .btn{width: 160px; height: 50px; border: 3px solid white; margin: 0 auto; }
+    #welcome .btn h3{margin-top: 10px; margin-left: auto; margin-right: auto;}
+
+  #cuisine{width: 100%; height: 740px; float: left; background-image: url(../img/main_img/cuisine/15.png); position: relative;}
+    #cuisine .box{width: 460px; height: 470px; margin: 150px 0 0 150px; background-image: url(../img/main_img/cuisine/back.png); background-repeat: no-repeat;}
+    #cuisine .box h1, h3, p{color: white; margin-left: 20px;}
+    #cuisine .btn{width: 160px; height: 50px; border: 3px solid white; margin: 150px 0 0 260px;}
+    #cuisine .btn h3{margin-top: 10px; margin-left: 30px; margin-right: auto;}
+
+    #recipe{width: 100%; height: 800px; float: left;}
+    #recipe h1 {text-align: center; margin-top: 85px; color:white; text-shadow:4px 4px 4px #000;}
+    #recipe h3 {text-align: center; color:white; text-shadow:4px 4px 4px #000;}
+      #recipe .box{width: 390px; height: 490px;  float: left; margin: 20px 0 0 95px;}
+      #recipe .box h4{float:left; margin-left: 10px; color:white; text-shadow:4px 4px 4px #000; margin-top: 10px;}
+      #recipe p1{color: white; text-shadow:1px 1px 1px #000; margin-left: 10px; margin-bottom: 5px; float: left;}
+      #recipe p2{color: white; text-shadow:1px 1px 1px #000; float: left; font-size: 12px; margin-left: 10px;}
+      #recipe .box img{width: 380px; margin-top: 15px;  margin-right: auto; }
+      #recipe .icon_r img{width: 30px; height: 20px; float: right; margin-left: 50px; margin-right: 30px; margin-top: 10px;}
+
+
+    #about_us{width: 100%; height: 790px; float: left;}
+      #about_us h1{margin: 180px 0 0 60px; color:white; text-shadow:4px 4px 4px #000;}
+      #about_us p{color:white; font-size: 14px; margin: 20px 0 0 80px;}
+      #about_us .btn{width: 160px; height: 50px; border: 3px solid white; margin: 50px 0 0 80px;}
+      #about_us .btn h3{margin-top: 10px; margin-left: 30px; margin-right: auto;}
+      .us_l{width: 45%; height: 600px; float: left; background-image: url(../img/main_img/about_us/bbq.png); background-repeat: no-repeat;}
+      .us_r{width: 55%; height: 600px; float: left; background-image: url(../img/main_img/about_us/board.png); background-repeat: no-repeat; }
+
+
+
+    #philosophy{width: 100%; height: 670px; float: left;  background-image:url(../img/main_img/philosophy/back.png); background-repeat: no-repeat; background-position: 60% 50%;}
+      #philosophy h1{margin: 180px 0 40px 250px; color:white; text-shadow:4px 4px 4px #000; transform: rotate(-2deg);}
+      #philosophy p{color:white; font-size: 14px; margin: 20px 0 0 280px; line-height: 1.6em; transform: rotate(1deg); }
+      #philosophy .btn{width: 160px; height: 50px; border: 3px solid white; margin: 50px 0 0 280px;}
+      #philosophy .btn h3{margin-top: 10px; margin-left: 30px; margin-right: auto;}
+
+    #mcd{width: 100%; height: 720px; float: left; }
+      #mcd h1{text-align: center; margin-top: 95px; color:white; text-shadow:4px 4px 4px #000; }
+      #mcd h3{text-align: center; color:white; text-shadow:4px 4px 4px #000;}
+
+      .box{width: 410px; height: 490px;  float: left; margin: 20px 0 0 75px; background-repeat: no-repeat;}
+      #mcd_section1 {background-image: url(../img/main_img/merchandise/pickle.png);}
+      #mcd_section1 h3{margin: 120px 0 20px 250px; float: left; text-align: left;}
+      #mcd_section1 p{margin: 0 0 0 245px; float: left;}
+
+      #mcd_section2{background-image: url(../img/main_img/merchandise/tomato.png);}
+      #mcd_section2 h3{margin: 120px 0 20px 220px; float: left; text-align: left;}}
+      #mcd_section2 p{margin: 0 0 0 220px; float: left;}
+
+      #mcd_section3{background-image: url(../img/main_img/merchandise/olive_oil.png);}
+      #mcd_section3 h3{margin: 120px 0 20px 140px; float: left; text-align: left;}
+      #mcd_section3 p{margin: 0 0 0 145px; float: left;}
+
+
+    #knife{width :100%; height: 700px; float: left;}
+      #knife h1{text-align: center; margin-top: 95px; color:white; text-shadow:4px 4px 4px #000;}
+      #knife h3{text-align: center; color:white; text-shadow:4px 4px 4px #000; margin-bottom: 50px;}
+      #knife .txt{width: 30%; height: 355px; float: left; margin-left: 50px;}
+      #knife .txt h3{text-align: left; color:white; text-shadow:4px 4px 4px #000; margin-top: 0px;}
+      #knife .txt p{text-align: left; color:white; }
+      #knife .movie{width: 30%; height: 370px; float: left; margin-left: -120px;}
+      #knife .picture{width: 30%; height: 370px; float: left; margin-left: 120px;}
+      #knife .picture img{width :90%}
+      #knife .picture h4{text-align: left; color:white; text-shadow:1px 1px 1px #000; margin: 5px 0 5px 0px;}
+      #knife .picture p{text-align: left; color:white;  font-size: 10px; margin-left: 0;}
+
+    #footer1{width: 100%; height: 420px; float: left; background-color: #1d0c02;}
+    #footer1 h2, p, a{color: white;}
+    a{text-decoration: none;}
+    #footer1 ul, li, ol {list-style: none; margin-left: 0;}
+      .footer_logo {width: 300px; height: auto; margin: 50px 0 0 100px; float:left;}
+      .footer_logo > img {width: 200px; display: block; margin-left: auto; margin-right: auto;}
+      .footer_icon img {width: 40px; margin-top: 40px; margin-left: 10px; margin-right: 5px;}
+      .footer_section {width: 500px; height: 350px; float: left; margin: 0 0 0 50px;}
+      .footer_section img {width: 170px; border: 3px solid white; float: left;}
+      .footer_section p {float: left; margin-top: 0; margin-bottom: 30px;}
+
+    #footer2{width: 100%; height: 80px; float: left; background-color: black;}
+      #footer2 p {margin-left: 600px;}
+}
+border: 5px solid yellow; box-shadow:4px 4px 4px #ccc;
+transform: rotate(-2deg);
